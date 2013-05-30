@@ -396,6 +396,60 @@ struct division
   }
 };
 
+template<typename scalar>
+struct equality_comparison
+{
+  volatile scalar x, y;
+  mutable volatile scalar result;
+
+  equality_comparison(scalar _x = 0, scalar _y = 0)
+    : x(_x)
+    , y(_y)
+    , result(0)
+  {}
+
+  void run() const {
+    result = scalar(x == y);
+  }
+
+  static string generic_name() {
+    return scalar_type_info<scalar>::name() + " equality comparison";
+  }
+
+  string name() const {
+    lowprecisionstringstream result_stream;
+    result_stream << generic_name() << " of " << as_number(x) << " and " << as_number(y);
+    return result_stream.str();
+  }
+};
+
+template<typename scalar>
+struct maximum
+{
+  volatile scalar x, y;
+  mutable volatile scalar result;
+
+  maximum(scalar _x = 0, scalar _y = 0)
+    : x(_x)
+    , y(_y)
+    , result(0)
+  {}
+
+  void run() const {
+    result = max(x, y);
+  }
+
+  static string generic_name() {
+    return string("std::max<") + scalar_type_info<scalar>::name() + ">";
+  }
+
+  string name() const {
+    lowprecisionstringstream result_stream;
+    result_stream << generic_name() << "(" << as_number(x) << ", " << as_number(y) << ")";
+    return result_stream.str();
+  }
+};
+
 template<typename functor>
 DONT_INLINE
 double one_timing(const functor& f)
@@ -624,6 +678,8 @@ struct study_scalar_type_impl<scalar, true>
     study_binary_functor<subtraction<scalar>>(vals);
     study_binary_functor<multiplication<scalar>>(vals);
     study_binary_functor<division<scalar>>(vals);
+    study_binary_functor<equality_comparison<scalar>>(vals);
+    study_binary_functor<maximum<scalar>>(vals);
   }
 };
 
@@ -648,6 +704,8 @@ struct study_scalar_type_impl<scalar, false>
     study_binary_functor<subtraction<scalar>>(vals);
     study_binary_functor<multiplication<scalar>>(vals);
     study_binary_functor<division<scalar>>(vals);
+    study_binary_functor<equality_comparison<scalar>>(vals);
+    study_binary_functor<maximum<scalar>>(vals);
   }
 };
 
