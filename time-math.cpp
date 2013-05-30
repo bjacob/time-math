@@ -39,11 +39,22 @@ const size_t measurement_repetitions = 32;
 //   5      |  LHC standard!
 //   5.327  |  1e-7
 //
-const double alert_threshold = 2.576;
-const double report_threshold = 1.645;
+const double significance_alert_threshold = 2.576;
+const double significance_report_threshold = 1.645;
 
 // Minimum number of timings to report for each operation even if nothing looks suspicious
 const size_t minimum_reports = 8;
+
+// Even if a timing is far enough from the median to be statistically significant,
+// it also needs to be sufficiently different from the median to be exploitable.
+// Otherwise we end up reporting a lot of near-median timings just because the stdev happens
+// to be very low. In theory, these are exploitable, in practice, they aren't until
+// the ratio of the timing to the median is substantial enough.
+//
+// The constant here is the threshold on max(timing, median) / min(timing, median).
+// For example, a value of 1.2 would mean that the timing difference must be at least 20%
+// to be worth an alert.
+const double timing_ratio_alert_threshold = 1.2;
 
 #ifdef X86_ENABLE_DAZ
 #include <xmmintrin.h>
@@ -494,7 +505,7 @@ void analyze_functor_results(vector<functor_result>& functor_results)
   for (report = 0; report < functor_results.size(); report++)
   {
     functor_result& func_res = functor_results[report];
-    if (report >= minimum_reports && func_res.distance_to_overall_median_in_stdevs < report_threshold) {
+    if (report >= minimum_reports && func_res.distance_to_overall_median_in_stdevs < significance_report_threshold) {
       break;
     }
     cout << "  " << func_res.name << " : mean time " << func_res.mean << " s, stdev " << func_res.stdev << " s, distance from overall median " << func_res.distance_to_overall_median_in_stdevs << " stdevs" << endl;
@@ -504,14 +515,18 @@ void analyze_functor_results(vector<functor_result>& functor_results)
          <<  functor_results[report].distance_to_overall_median_in_stdevs << " sigma of the overall median" << endl;
   }
 
-  if (functor_results[0].distance_to_overall_median_in_stdevs >= alert_threshold) {
-    lowprecisionstringstream alert;
-    size_t alert_number = alerts.size() + 1;
-    alert << "  alert #" << alert_number
-          << ": deviation of " << functor_results[0].distance_to_overall_median_in_stdevs
-          << " sigma for " << functor_results[0].name;
-    alerts.push_back(alert.str());
-    cout << alerts.back() << endl;
+  if (functor_results[0].distance_to_overall_median_in_stdevs >= significance_alert_threshold) {
+    double a = min(functor_results[0].mean, overall_median);
+    double b = max(functor_results[0].mean, overall_median);
+    if (b / a > timing_ratio_alert_threshold) {
+      lowprecisionstringstream alert;
+      size_t alert_number = alerts.size() + 1;
+      alert << "  alert #" << alert_number
+            << ": deviation of " << functor_results[0].distance_to_overall_median_in_stdevs
+            << " sigma for " << functor_results[0].name;
+      alerts.push_back(alert.str());
+      cout << alerts.back() << endl;
+    }
   }
 
   cout << endl;
