@@ -2,20 +2,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-// How many significant digits we really want to print for all those floats
-const int lowprecision = 3;
-
-// Minimum time in seconds that our payload needs to run to give a useful timing
-const double minimum_measurement_time = 0.1;
-
-// How many timings we run before we pick the best one
-const int measurement_repetitions = 4;
-
-// Threshold to report a worst-to-best timing ratio as something to worry about.
-// Our ambient noise level is around 1.05 with current values of
-// minimum_measurement_time and of measurement_repetitions.
-const double worst_to_best_ratio_alert_threshold = 1.3;
-
 #include <cstdint>
 #include <iostream>
 #include <ctime>
@@ -26,6 +12,38 @@ const double worst_to_best_ratio_alert_threshold = 1.3;
 #include <cstdint>
 #include <limits>
 #include <cassert>
+
+// How many significant digits we really want to print for all those floats
+const int lowprecision = 3;
+
+// Minimum time in seconds that our payload needs to run to give a useful timing
+const double minimum_measurement_time = 0.002;
+
+// How many timings we run before we pick the median one
+const size_t measurement_repetitions = 32;
+
+// Thresholds to report / to generate an alert about an operation definitely taking a different
+// amount of time depending on its operands. Expressed in standard deviations ("sigmas").
+// A higher value means a fewer false positives. The following tables allows to
+// pick a value for a given target false positives rate. From
+// http://en.wikipedia.org/wiki/Standard_deviation#Rules_for_normally_distributed_data
+//
+//   Value  |  Chance of false positive
+// ---------+-----------------------------
+//   1.645  |  10 %
+//   2.576  |  1 %
+//   3.291  |  0.1 % (1e-3)
+//   3.891  |  1e-4
+//   4.417  |  1e-5
+//   4.892  |  1e-6
+//   5      |  LHC standard!
+//   5.327  |  1e-7
+//
+const double alert_threshold = 2.576;
+const double report_threshold = 1.645;
+
+// Minimum number of timings to report for each operation even if nothing looks suspicious
+const size_t minimum_reports = 8;
 
 #ifdef X86_ENABLE_DAZ
 #include <xmmintrin.h>
@@ -64,7 +82,7 @@ struct lowprecisionstringstream : public stringstream {
 
 double time() {
   timespec t;
-  clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &t);
+  clock_gettime(CLOCK_THREAD_CPUTIME_ID, &t);
   return double(t.tv_sec) + 1e-9 * double(t.tv_nsec);
 }
 
@@ -399,36 +417,104 @@ double one_timing(const functor& f)
 
 template<typename functor>
 DONT_INLINE
-double best_timing(const functor& f)
+double median_timing(const functor& f)
 {
-  double best = 0;
+  vector<double> timings;
   for (size_t i = 0; i < measurement_repetitions; i++) {
-    double t = one_timing(f);
-    if (i == 0 || t < best) {
-      best = t;
-    }
+    timings.push_back(one_timing(f));
   }
-  return best;
+  sort(timings.begin(), timings.end());
+  return timings[timings.size()/2];
 }
 
-template<typename functor>
-void report_functor_summary(double best_time, double worst_time,
-                            const functor& best_functor,
-                            const functor& worst_functor)
+template<typename scalar>
+scalar mean(const scalar* begin, const scalar* end)
 {
-  cout << "  best time: " << best_time << " s for " << best_functor.name() << endl;
-  cout << "  worst time: " << worst_time << " s for " << worst_functor.name() << endl;
-  double ratio = worst_time / best_time;
-  cout << "  worst/best ratio: " << ratio << endl;
-  if (ratio > worst_to_best_ratio_alert_threshold) {
+  scalar accum = 0;
+  for_each (begin, end, [&](const scalar x) {
+      accum += x;
+  });
+  return accum / (end - begin);
+}
+
+template<typename scalar>
+scalar stdev(const scalar* begin, const scalar* end, scalar mean)
+{
+  scalar accum = 0;
+  for_each (begin, end, [&](const scalar x) {
+      accum += (x - mean) * (x - mean);
+  });
+
+  return sqrt(accum / (end - begin - 1));
+}
+
+struct functor_result
+{
+  string name;
+  double raw_values[measurement_repetitions];
+  double mean;
+  double stdev;
+  double distance_to_overall_median_in_stdevs;
+
+  bool operator< (const functor_result& other) const
+  {
+    return distance_to_overall_median_in_stdevs > other.distance_to_overall_median_in_stdevs;
+  }
+};
+
+void analyze_functor_results(vector<functor_result>& functor_results)
+{
+  vector<double> all_raw_timings(functor_results.size() * measurement_repetitions);
+
+  size_t raw_timing_index = 0;
+
+  for (size_t i = 0; i < functor_results.size(); i++)
+  {
+    for (size_t repetition = 0; repetition < measurement_repetitions; repetition++)
+    {
+      all_raw_timings[raw_timing_index++] = functor_results[i].raw_values[repetition];
+    }
+  }
+  sort(all_raw_timings.begin(), all_raw_timings.end());
+
+  double overall_median = all_raw_timings[all_raw_timings.size() / 2];
+  cout << "  overall median: " << overall_median << endl;
+
+  size_t report;
+  for (report = 0; report < functor_results.size(); report++)
+  {
+    functor_result& func_res = functor_results[report];
+    func_res.mean = mean(func_res.raw_values, func_res.raw_values + measurement_repetitions);
+    func_res.stdev = stdev(func_res.raw_values, func_res.raw_values + measurement_repetitions, func_res.mean);
+    func_res.distance_to_overall_median_in_stdevs = std::abs(func_res.mean - overall_median) / func_res.stdev;
+  }
+
+  sort(functor_results.begin(), functor_results.end());
+
+  for (report = 0; report < functor_results.size(); report++)
+  {
+    functor_result& func_res = functor_results[report];
+    if (report >= minimum_reports && func_res.distance_to_overall_median_in_stdevs < report_threshold) {
+      break;
+    }
+    cout << "  " << func_res.name << " : mean time " << func_res.mean << " s, stdev " << func_res.stdev << " s, distance from overall median " << func_res.distance_to_overall_median_in_stdevs << " stdevs" << endl;
+  }
+  if (++report < functor_results.size()) {
+    cout << "  the remaining " << (functor_results.size() - report) << " timings are within "
+         <<  functor_results[report].distance_to_overall_median_in_stdevs << " sigma of the overall median" << endl;
+  }
+
+  if (functor_results[0].distance_to_overall_median_in_stdevs >= alert_threshold) {
     lowprecisionstringstream alert;
     size_t alert_number = alerts.size() + 1;
-    alert << "alert #" << alert_number
-          << ": high worst/best ratio of " << ratio
-          << " for " << functor::generic_name();
+    alert << "  alert #" << alert_number
+          << ": deviation of " << functor_results[0].distance_to_overall_median_in_stdevs
+          << " sigma for " << functor_results[0].name;
     alerts.push_back(alert.str());
-    cout << "  " << alerts.back() << endl;
+    cout << alerts.back() << endl;
   }
+
+  cout << endl;
 }
 
 template<typename functor, typename scalar>
@@ -436,40 +522,30 @@ void study_binary_functor(const vector<scalar>& scalars)
 {
   cout << functor::generic_name() << endl;
 
-  double best_time;
-  double worst_time;
-  functor best_functor;
-  functor worst_functor;
-  bool first_time = true;
+  vector<functor_result> functor_results(scalars.size() * scalars.size());
 
-  cout << "  timings:" << endl;
+  cout << "  timing";
 
-  for (typename vector<scalar>::const_iterator itx = scalars.begin();
-       itx != scalars.end();
-       ++itx)
+  for (size_t repetition = 0; repetition < measurement_repetitions; repetition++)
   {
-    for (typename vector<scalar>::const_iterator ity = scalars.begin();
-         ity != scalars.end();
-         ++ity)
+    cout << "." << flush;
+    for (size_t ix = 0; ix < scalars.size(); ix++)
     {
-      functor f(*itx, *ity);
-      double time = best_timing(f);
-      cout << "    " << f.name() << " : " << time << " s" << endl;
-      if (first_time || time < best_time) {
-        best_time = time;
-        best_functor = f;
+      for (size_t iy = 0; iy < scalars.size(); iy++)
+      {
+        functor_result& func_res = functor_results[ix * scalars.size() + iy];
+        functor f(scalars[ix], scalars[iy]);
+        if (repetition == 0) {
+          func_res.name = f.name();
+        }
+        double value = one_timing(f);
+        func_res.raw_values[repetition] = value;
       }
-      if (first_time || time > worst_time) {
-        worst_time = time;
-        worst_functor = f;
-      }
-      first_time = false;
     }
   }
-
-  assert(!first_time);
-  report_functor_summary(best_time, worst_time, best_functor, worst_functor);
   cout << endl;
+
+  analyze_functor_results(functor_results);
 }
 
 template<typename functor, typename scalar>
@@ -477,35 +553,27 @@ void study_unary_functor(const vector<scalar>& scalars)
 {
   cout << functor::generic_name() << endl;
 
-  double best_time;
-  double worst_time;
-  functor best_functor;
-  functor worst_functor;
-  bool first_time = true;
+  vector<functor_result> functor_results(scalars.size());
 
-  cout << "  timings:" << endl;
+  cout << "  timing";
 
-  for (typename vector<scalar>::const_iterator itx = scalars.begin();
-       itx != scalars.end();
-       ++itx)
+  for (size_t repetition = 0; repetition < measurement_repetitions; repetition++)
   {
-    functor f(*itx);
-    double time = best_timing(f);
-    cout << "    " << f.name() << " : " << time << " s" << endl;
-    if (first_time || time < best_time) {
-      best_time = time;
-      best_functor = f;
+    cout << "." << flush;
+    for (size_t ix = 0; ix < scalars.size(); ix++)
+    {
+      functor_result& func_res = functor_results[ix];
+      functor f(scalars[ix]);
+      if (repetition == 0) {
+        func_res.name = f.name();
+      }
+      double value = one_timing(f);
+      func_res.raw_values[repetition] = value;
     }
-    if (first_time || time > worst_time) {
-      worst_time = time;
-      worst_functor = f;
-    }
-    first_time = false;
   }
-
-  assert(!first_time);
-  report_functor_summary(best_time, worst_time, best_functor, worst_functor);
   cout << endl;
+
+  analyze_functor_results(functor_results);
 }
 
 template<typename scalar>
@@ -574,7 +642,7 @@ void study_scalar_type(const vector<scalar>& vals)
   study_scalar_type_impl<scalar>::run(vals);
 }
 
-int main(int argc, char*argv[])
+int main()
 {
 #ifdef ARM_DISABLE_FZ
   __asm__ volatile("vmrs r0, fpscr\n"
