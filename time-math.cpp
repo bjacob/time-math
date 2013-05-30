@@ -489,7 +489,7 @@ void analyze_functor_results(vector<functor_result>& functor_results)
   sort(all_raw_timings.begin(), all_raw_timings.end());
 
   double overall_median = all_raw_timings[all_raw_timings.size() / 2];
-  cout << "  overall median: " << overall_median << endl;
+  cout << "  overall median: " << overall_median << " s" << endl;
 
   size_t report;
   for (report = 0; report < functor_results.size(); report++)
@@ -521,11 +521,11 @@ void analyze_functor_results(vector<functor_result>& functor_results)
     if (b / a > timing_ratio_alert_threshold) {
       lowprecisionstringstream alert;
       size_t alert_number = alerts.size() + 1;
-      alert << "  alert #" << alert_number
+      alert << "alert #" << alert_number
             << ": deviation of " << functor_results[0].distance_to_overall_median_in_stdevs
             << " sigma for " << functor_results[0].name;
       alerts.push_back(alert.str());
-      cout << alerts.back() << endl;
+      cout << "  " << alerts.back() << endl;
     }
   }
 
@@ -757,9 +757,13 @@ int main()
   int8vals.push_back(numeric_limits<int8_t>::min());
   int8vals.push_back(numeric_limits<int8_t>::min() + 11);
   int8vals.push_back(-11);
+  int8vals.push_back(-3);
+  int8vals.push_back(-2);
   int8vals.push_back(-1);
+  int8vals.push_back(0);
   int8vals.push_back(1);
-  int8vals.push_back(1);
+  int8vals.push_back(2);
+  int8vals.push_back(3);
   int8vals.push_back(11);
   int8vals.push_back(numeric_limits<int8_t>::max() - 11);
   int8vals.push_back(numeric_limits<int8_t>::max());
@@ -769,9 +773,13 @@ int main()
   int16vals.push_back(numeric_limits<int16_t>::min() + 11);
   int16vals.push_back(-1111);
   int16vals.push_back(-11);
+  int16vals.push_back(-3);
+  int16vals.push_back(-2);
   int16vals.push_back(-1);
+  int16vals.push_back(0);
   int16vals.push_back(1);
-  int16vals.push_back(1);
+  int16vals.push_back(2);
+  int16vals.push_back(3);
   int16vals.push_back(11);
   int16vals.push_back(1111);
   int16vals.push_back(numeric_limits<int16_t>::max() - 11);
@@ -782,9 +790,13 @@ int main()
   int32vals.push_back(numeric_limits<int32_t>::min() + 11);
   int32vals.push_back(-1111111);
   int32vals.push_back(-11);
+  int32vals.push_back(-3);
+  int32vals.push_back(-2);
   int32vals.push_back(-1);
+  int32vals.push_back(0);
   int32vals.push_back(1);
-  int32vals.push_back(1);
+  int32vals.push_back(2);
+  int32vals.push_back(3);
   int32vals.push_back(11);
   int32vals.push_back(1111111);
   int32vals.push_back(numeric_limits<int32_t>::max() - 11);
@@ -796,9 +808,13 @@ int main()
   int64vals.push_back(-1111111111111LL);
   int64vals.push_back(-1111111);
   int64vals.push_back(-11);
+  int64vals.push_back(-3);
+  int64vals.push_back(-2);
   int64vals.push_back(-1);
+  int64vals.push_back(0);
   int64vals.push_back(1);
-  int64vals.push_back(1);
+  int64vals.push_back(2);
+  int64vals.push_back(3);
   int64vals.push_back(11);
   int64vals.push_back(1111111);
   int64vals.push_back(1111111111111LL);
