@@ -1,0 +1,1523 @@
+conversion from float to double
+  timing................................
+  overall median: 1.55e-09 s
+  conversion from float to double of 1e-36 : mean time 1.65e-09 s, stdev 1.38e-10 s, distance from overall median 0.69 stdevs
+  conversion from float to double of -inf : mean time 1.65e-09 s, stdev 1.53e-10 s, distance from overall median 0.684 stdevs
+  conversion from float to double of 256 : mean time 1.62e-09 s, stdev 1.07e-10 s, distance from overall median 0.672 stdevs
+  conversion from float to double of 0 : mean time 1.63e-09 s, stdev 1.19e-10 s, distance from overall median 0.672 stdevs
+  conversion from float to double of -0 : mean time 1.64e-09 s, stdev 1.34e-10 s, distance from overall median 0.672 stdevs
+  conversion from float to double of -0 : mean time 1.64e-09 s, stdev 1.4e-10 s, distance from overall median 0.671 stdevs
+  conversion from float to double of 0 : mean time 1.64e-09 s, stdev 1.38e-10 s, distance from overall median 0.659 stdevs
+  conversion from float to double of 0 : mean time 1.65e-09 s, stdev 1.56e-10 s, distance from overall median 0.648 stdevs
+  the remaining 24 timings are within 0.625 sigma of the overall median
+
+conversion from float to int8
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from float to int8 of 0 : mean time 1.73e-09 s, stdev 7.04e-11 s, distance from overall median 0.631 stdevs
+  conversion from float to int8 of 0.0323 : mean time 1.7e-09 s, stdev 3.35e-11 s, distance from overall median 0.617 stdevs
+  conversion from float to int8 of 255 : mean time 1.7e-09 s, stdev 2.2e-11 s, distance from overall median 0.574 stdevs
+  conversion from float to int8 of 0 : mean time 1.72e-09 s, stdev 5.99e-11 s, distance from overall median 0.571 stdevs
+  conversion from float to int8 of 0.00391 : mean time 1.71e-09 s, stdev 4.76e-11 s, distance from overall median 0.554 stdevs
+  conversion from float to int8 of -0 : mean time 1.72e-09 s, stdev 6.3e-11 s, distance from overall median 0.549 stdevs
+  conversion from float to int8 of -0 : mean time 1.72e-09 s, stdev 6.33e-11 s, distance from overall median 0.546 stdevs
+  conversion from float to int8 of 1.68e+07 : mean time 1.7e-09 s, stdev 3.11e-11 s, distance from overall median 0.527 stdevs
+  the remaining 24 timings are within 0.514 sigma of the overall median
+
+conversion from float to int16
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from float to int16 of 1e+16 : mean time 1.81e-09 s, stdev 2.55e-10 s, distance from overall median 0.506 stdevs
+  conversion from float to int16 of -1.68e+07 : mean time 1.82e-09 s, stdev 2.81e-10 s, distance from overall median 0.5 stdevs
+  conversion from float to int16 of -1e+16 : mean time 1.81e-09 s, stdev 2.61e-10 s, distance from overall median 0.495 stdevs
+  conversion from float to int16 of 1e+32 : mean time 1.8e-09 s, stdev 2.34e-10 s, distance from overall median 0.491 stdevs
+  conversion from float to int16 of 1.68e+07 : mean time 1.81e-09 s, stdev 2.63e-10 s, distance from overall median 0.48 stdevs
+  conversion from float to int16 of 1.68e+07 : mean time 1.8e-09 s, stdev 2.46e-10 s, distance from overall median 0.472 stdevs
+  conversion from float to int16 of 0.0323 : mean time 1.8e-09 s, stdev 2.56e-10 s, distance from overall median 0.465 stdevs
+  conversion from float to int16 of 0.5 : mean time 1.78e-09 s, stdev 2.22e-10 s, distance from overall median 0.461 stdevs
+  the remaining 24 timings are within 0.447 sigma of the overall median
+
+conversion from float to int32
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from float to int32 of nan : mean time 1.69e-09 s, stdev 1.77e-11 s, distance from overall median 0.341 stdevs
+  conversion from float to int32 of 255 : mean time 1.68e-09 s, stdev 1.31e-11 s, distance from overall median 0.294 stdevs
+  conversion from float to int32 of nan : mean time 1.68e-09 s, stdev 1.41e-11 s, distance from overall median 0.289 stdevs
+  conversion from float to int32 of -1.68e+07 : mean time 1.71e-09 s, stdev 1.03e-10 s, distance from overall median 0.284 stdevs
+  conversion from float to int32 of 1.68e+07 : mean time 1.71e-09 s, stdev 1.05e-10 s, distance from overall median 0.284 stdevs
+  conversion from float to int32 of 1.68e+07 : mean time 1.71e-09 s, stdev 1.05e-10 s, distance from overall median 0.269 stdevs
+  conversion from float to int32 of 6.55e+04 : mean time 1.71e-09 s, stdev 9.75e-11 s, distance from overall median 0.269 stdevs
+  conversion from float to int32 of -1.68e+07 : mean time 1.7e-09 s, stdev 9.39e-11 s, distance from overall median 0.265 stdevs
+  the remaining 24 timings are within 0.25 sigma of the overall median
+
+conversion from float to int64
+  timing................................
+  overall median: 8.37e-09 s
+  conversion from float to int64 of -inf : mean time 3.81e-07 s, stdev 8.37e-10 s, distance from overall median 445 stdevs
+  conversion from float to int64 of nan : mean time 3.8e-07 s, stdev 9.16e-10 s, distance from overall median 406 stdevs
+  conversion from float to int64 of nan : mean time 7.36e-07 s, stdev 2.41e-09 s, distance from overall median 302 stdevs
+  conversion from float to int64 of inf : mean time 3.8e-07 s, stdev 1.36e-09 s, distance from overall median 273 stdevs
+  conversion from float to int64 of 1e+32 : mean time 3.81e-07 s, stdev 2.02e-09 s, distance from overall median 184 stdevs
+  conversion from float to int64 of 0 : mean time 8.34e-08 s, stdev 5.12e-10 s, distance from overall median 146 stdevs
+  conversion from float to int64 of 0 : mean time 8.26e-08 s, stdev 6.9e-10 s, distance from overall median 107 stdevs
+  conversion from float to int64 of -0 : mean time 8.25e-08 s, stdev 7.47e-10 s, distance from overall median 99.3 stdevs
+  conversion from float to int64 of 0 : mean time 8.31e-08 s, stdev 7.83e-10 s, distance from overall median 95.3 stdevs
+  conversion from float to int64 of -0 : mean time 8.25e-08 s, stdev 8.06e-10 s, distance from overall median 91.9 stdevs
+  the remaining 22 timings are within 1.06 sigma of the overall median
+  alert #1: deviation of 445 sigma for conversion from float to int64 of -inf
+
+std::exp<float>
+  timing................................
+  overall median: 7.67e-08 s
+  std::exp<float>(nan) : mean time 2.11e-06 s, stdev 2e-09 s, distance from overall median 1.01e+03 stdevs
+  std::exp<float>(nan) : mean time 2.46e-06 s, stdev 6.26e-09 s, distance from overall median 380 stdevs
+  std::exp<float>(-0) : mean time 4.03e-07 s, stdev 1.14e-09 s, distance from overall median 285 stdevs
+  std::exp<float>(0) : mean time 4.03e-07 s, stdev 1.19e-09 s, distance from overall median 273 stdevs
+  std::exp<float>(0) : mean time 4.03e-07 s, stdev 1.23e-09 s, distance from overall median 264 stdevs
+  std::exp<float>(1e-32) : mean time 1.46e-07 s, stdev 2.86e-10 s, distance from overall median 240 stdevs
+  std::exp<float>(0) : mean time 4.03e-07 s, stdev 1.45e-09 s, distance from overall median 225 stdevs
+  std::exp<float>(0.00391) : mean time 1.38e-07 s, stdev 3.07e-10 s, distance from overall median 198 stdevs
+  std::exp<float>(-0) : mean time 4.02e-07 s, stdev 1.95e-09 s, distance from overall median 167 stdevs
+  std::exp<float>(1e-36) : mean time 1.46e-07 s, stdev 4.85e-10 s, distance from overall median 142 stdevs
+  std::exp<float>(3e-05) : mean time 1.38e-07 s, stdev 4.4e-10 s, distance from overall median 138 stdevs
+  std::exp<float>(2) : mean time 1.15e-07 s, stdev 4.18e-10 s, distance from overall median 91.5 stdevs
+  std::exp<float>(0) : mean time 1.07e-07 s, stdev 3.45e-10 s, distance from overall median 88.5 stdevs
+  std::exp<float>(-0.00391) : mean time 1.38e-07 s, stdev 8.75e-10 s, distance from overall median 69.6 stdevs
+  std::exp<float>(1.68e+07) : mean time 2.61e-08 s, stdev 7.95e-10 s, distance from overall median 63.7 stdevs
+  std::exp<float>(1.68e+07) : mean time 2.62e-08 s, stdev 8.72e-10 s, distance from overall median 57.9 stdevs
+  std::exp<float>(6.55e+04) : mean time 2.63e-08 s, stdev 8.93e-10 s, distance from overall median 56.4 stdevs
+  std::exp<float>(1e+16) : mean time 2.63e-08 s, stdev 8.95e-10 s, distance from overall median 56.4 stdevs
+  std::exp<float>(1e+32) : mean time 2.64e-08 s, stdev 1.08e-09 s, distance from overall median 46.7 stdevs
+  std::exp<float>(inf) : mean time 2.66e-08 s, stdev 1.09e-09 s, distance from overall median 45.9 stdevs
+  std::exp<float>(255) : mean time 2.69e-08 s, stdev 1.13e-09 s, distance from overall median 44 stdevs
+  std::exp<float>(256) : mean time 2.68e-08 s, stdev 1.14e-09 s, distance from overall median 43.6 stdevs
+  std::exp<float>(6.55e+04) : mean time 2.68e-08 s, stdev 1.19e-09 s, distance from overall median 41.9 stdevs
+  std::exp<float>(-1.68e+07) : mean time 2.75e-08 s, stdev 1.19e-09 s, distance from overall median 41.2 stdevs
+  std::exp<float>(-1e+16) : mean time 2.74e-08 s, stdev 1.21e-09 s, distance from overall median 40.8 stdevs
+  std::exp<float>(-1.68e+07) : mean time 2.74e-08 s, stdev 1.25e-09 s, distance from overall median 39.5 stdevs
+  std::exp<float>(-256) : mean time 2.74e-08 s, stdev 1.28e-09 s, distance from overall median 38.5 stdevs
+  std::exp<float>(-inf) : mean time 2.74e-08 s, stdev 1.33e-09 s, distance from overall median 37.2 stdevs
+  std::exp<float>(0.0323) : mean time 1.38e-07 s, stdev 1.73e-09 s, distance from overall median 35.3 stdevs
+  std::exp<float>(-255) : mean time 2.76e-08 s, stdev 1.41e-09 s, distance from overall median 35 stdevs
+  the remaining 2 timings are within 0.102 sigma of the overall median
+  alert #2: deviation of 1.01e+03 sigma for std::exp<float>(nan)
+
+std::log<float>
+  timing................................
+  overall median: 9.99e-08 s
+  std::log<float>(nan) : mean time 8.32e-09 s, stdev 1.66e-10 s, distance from overall median 551 stdevs
+  std::log<float>(nan) : mean time 3.67e-07 s, stdev 6.29e-10 s, distance from overall median 425 stdevs
+  std::log<float>(-0) : mean time 8.26e-07 s, stdev 2.71e-09 s, distance from overall median 268 stdevs
+  std::log<float>(0) : mean time 3.9e-07 s, stdev 1.1e-09 s, distance from overall median 265 stdevs
+  std::log<float>(-1.68e+07) : mean time 3.85e-07 s, stdev 1.09e-09 s, distance from overall median 261 stdevs
+  std::log<float>(-1e+16) : mean time 3.84e-07 s, stdev 1.28e-09 s, distance from overall median 222 stdevs
+  std::log<float>(-256) : mean time 3.84e-07 s, stdev 1.37e-09 s, distance from overall median 208 stdevs
+  std::log<float>(-inf) : mean time 3.84e-07 s, stdev 1.45e-09 s, distance from overall median 196 stdevs
+  std::log<float>(-1.68e+07) : mean time 3.85e-07 s, stdev 1.52e-09 s, distance from overall median 188 stdevs
+  std::log<float>(-0) : mean time 8.28e-07 s, stdev 3.9e-09 s, distance from overall median 187 stdevs
+  std::log<float>(-0.00391) : mean time 3.85e-07 s, stdev 1.69e-09 s, distance from overall median 168 stdevs
+  std::log<float>(-1) : mean time 3.85e-07 s, stdev 1.73e-09 s, distance from overall median 164 stdevs
+  std::log<float>(0) : mean time 3.39e-07 s, stdev 1.46e-09 s, distance from overall median 164 stdevs
+  std::log<float>(0) : mean time 3.39e-07 s, stdev 1.79e-09 s, distance from overall median 134 stdevs
+  std::log<float>(-255) : mean time 3.84e-07 s, stdev 2.24e-09 s, distance from overall median 127 stdevs
+  std::log<float>(0) : mean time 3.39e-07 s, stdev 2.65e-09 s, distance from overall median 90.1 stdevs
+  std::log<float>(inf) : mean time 1.14e-07 s, stdev 3.61e-10 s, distance from overall median 40.2 stdevs
+  std::log<float>(1e-32) : mean time 4.64e-08 s, stdev 1.46e-09 s, distance from overall median 36.6 stdevs
+  std::log<float>(1.68e+07) : mean time 4.66e-08 s, stdev 1.47e-09 s, distance from overall median 36.4 stdevs
+  std::log<float>(255) : mean time 4.67e-08 s, stdev 1.49e-09 s, distance from overall median 35.7 stdevs
+  std::log<float>(3e-05) : mean time 4.63e-08 s, stdev 1.51e-09 s, distance from overall median 35.5 stdevs
+  std::log<float>(1.68e+07) : mean time 4.6e-08 s, stdev 1.54e-09 s, distance from overall median 34.9 stdevs
+  std::log<float>(1e+32) : mean time 4.67e-08 s, stdev 1.69e-09 s, distance from overall median 31.5 stdevs
+  std::log<float>(0.00391) : mean time 4.6e-08 s, stdev 1.74e-09 s, distance from overall median 31 stdevs
+  std::log<float>(6.55e+04) : mean time 4.61e-08 s, stdev 1.76e-09 s, distance from overall median 30.6 stdevs
+  std::log<float>(6.55e+04) : mean time 4.61e-08 s, stdev 1.85e-09 s, distance from overall median 29.2 stdevs
+  std::log<float>(1e+16) : mean time 4.66e-08 s, stdev 1.86e-09 s, distance from overall median 28.6 stdevs
+  std::log<float>(2) : mean time 4.64e-08 s, stdev 1.87e-09 s, distance from overall median 28.6 stdevs
+  std::log<float>(0.5) : mean time 4.59e-08 s, stdev 1.94e-09 s, distance from overall median 27.8 stdevs
+  std::log<float>(0.0323) : mean time 4.59e-08 s, stdev 2.07e-09 s, distance from overall median 26.1 stdevs
+  std::log<float>(1e-36) : mean time 4.59e-08 s, stdev 2.07e-09 s, distance from overall median 26.1 stdevs
+  std::log<float>(256) : mean time 4.62e-08 s, stdev 2.09e-09 s, distance from overall median 25.7 stdevs
+  alert #3: deviation of 551 sigma for std::log<float>(nan)
+
+std::cos<float>
+  timing................................
+  overall median: 7.24e-08 s
+  std::cos<float>(nan) : mean time 7.13e-07 s, stdev 1.46e-09 s, distance from overall median 437 stdevs
+  std::cos<float>(inf) : mean time 3.46e-07 s, stdev 8.66e-10 s, distance from overall median 315 stdevs
+  std::cos<float>(-inf) : mean time 3.45e-07 s, stdev 8.78e-10 s, distance from overall median 311 stdevs
+  std::cos<float>(1e+32) : mean time 2.52e-07 s, stdev 1.54e-09 s, distance from overall median 117 stdevs
+  std::cos<float>(nan) : mean time 3.59e-07 s, stdev 2.7e-09 s, distance from overall median 106 stdevs
+  std::cos<float>(0) : mean time 1.32e-07 s, stdev 8.57e-10 s, distance from overall median 70 stdevs
+  std::cos<float>(0) : mean time 5.65e-08 s, stdev 2.29e-10 s, distance from overall median 69 stdevs
+  std::cos<float>(0) : mean time 1.32e-07 s, stdev 9.85e-10 s, distance from overall median 60.3 stdevs
+  std::cos<float>(0) : mean time 1.32e-07 s, stdev 1.07e-09 s, distance from overall median 55.8 stdevs
+  std::cos<float>(-0) : mean time 1.32e-07 s, stdev 1.11e-09 s, distance from overall median 53.6 stdevs
+  std::cos<float>(-0) : mean time 1.32e-07 s, stdev 1.14e-09 s, distance from overall median 52.5 stdevs
+  std::cos<float>(0.5) : mean time 6.07e-08 s, stdev 2.73e-10 s, distance from overall median 42.7 stdevs
+  std::cos<float>(-255) : mean time 5.99e-08 s, stdev 5.21e-10 s, distance from overall median 23.9 stdevs
+  std::cos<float>(255) : mean time 6.01e-08 s, stdev 5.48e-10 s, distance from overall median 22.4 stdevs
+  std::cos<float>(6.55e+04) : mean time 6.02e-08 s, stdev 5.48e-10 s, distance from overall median 22.2 stdevs
+  std::cos<float>(-1e+16) : mean time 6.19e-08 s, stdev 5.25e-10 s, distance from overall median 20 stdevs
+  std::cos<float>(1e+16) : mean time 6.2e-08 s, stdev 5.95e-10 s, distance from overall median 17.4 stdevs
+  std::cos<float>(1.68e+07) : mean time 6.03e-08 s, stdev 1e-09 s, distance from overall median 12.1 stdevs
+  std::cos<float>(1.68e+07) : mean time 6.06e-08 s, stdev 1.02e-09 s, distance from overall median 11.5 stdevs
+  std::cos<float>(-1.68e+07) : mean time 6.01e-08 s, stdev 1.08e-09 s, distance from overall median 11.4 stdevs
+  std::cos<float>(1) : mean time 6.12e-08 s, stdev 9.91e-10 s, distance from overall median 11.3 stdevs
+  std::cos<float>(2) : mean time 6.06e-08 s, stdev 1.06e-09 s, distance from overall median 11 stdevs
+  std::cos<float>(-1) : mean time 6.09e-08 s, stdev 1.05e-09 s, distance from overall median 11 stdevs
+  std::cos<float>(-1.68e+07) : mean time 6.05e-08 s, stdev 1.09e-09 s, distance from overall median 10.8 stdevs
+  std::cos<float>(1e-36) : mean time 6.45e-08 s, stdev 1.38e-09 s, distance from overall median 5.72 stdevs
+  std::cos<float>(1e-32) : mean time 6.44e-08 s, stdev 1.47e-09 s, distance from overall median 5.41 stdevs
+  std::cos<float>(0.0323) : mean time 7.53e-08 s, stdev 6.76e-10 s, distance from overall median 4.33 stdevs
+  std::cos<float>(0.00391) : mean time 7.54e-08 s, stdev 7.62e-10 s, distance from overall median 3.95 stdevs
+  std::cos<float>(-0.00391) : mean time 7.53e-08 s, stdev 7.56e-10 s, distance from overall median 3.95 stdevs
+  std::cos<float>(3e-05) : mean time 7.54e-08 s, stdev 8.53e-10 s, distance from overall median 3.61 stdevs
+  std::cos<float>(256) : mean time 7.56e-08 s, stdev 1.68e-09 s, distance from overall median 1.93 stdevs
+  std::cos<float>(-256) : mean time 7.55e-08 s, stdev 1.68e-09 s, distance from overall median 1.88 stdevs
+  std::cos<float>(6.55e+04) : mean time 7.54e-08 s, stdev 1.71e-09 s, distance from overall median 1.78 stdevs
+  alert #4: deviation of 437 sigma for std::cos<float>(nan)
+
+std::atan<float>
+  timing................................
+  overall median: 9.6e-08 s
+  std::atan<float>(nan) : mean time 6.88e-07 s, stdev 1.04e-09 s, distance from overall median 572 stdevs
+  std::atan<float>(nan) : mean time 3.34e-07 s, stdev 7.52e-10 s, distance from overall median 317 stdevs
+  std::atan<float>(0.5) : mean time 6.29e-08 s, stdev 1.39e-10 s, distance from overall median 238 stdevs
+  std::atan<float>(2) : mean time 6.29e-08 s, stdev 1.88e-10 s, distance from overall median 176 stdevs
+  std::atan<float>(-1) : mean time 6.3e-08 s, stdev 2.06e-10 s, distance from overall median 161 stdevs
+  std::atan<float>(1) : mean time 6.3e-08 s, stdev 2.13e-10 s, distance from overall median 155 stdevs
+  std::atan<float>(-0) : mean time 2.95e-07 s, stdev 1.58e-09 s, distance from overall median 126 stdevs
+  std::atan<float>(0) : mean time 2.93e-07 s, stdev 1.58e-09 s, distance from overall median 124 stdevs
+  std::atan<float>(0) : mean time 2.94e-07 s, stdev 1.86e-09 s, distance from overall median 107 stdevs
+  std::atan<float>(-0) : mean time 2.93e-07 s, stdev 2.1e-09 s, distance from overall median 94 stdevs
+  std::atan<float>(0) : mean time 7.4e-08 s, stdev 2.4e-10 s, distance from overall median 91.7 stdevs
+  std::atan<float>(inf) : mean time 7.31e-08 s, stdev 3e-10 s, distance from overall median 76.5 stdevs
+  std::atan<float>(-inf) : mean time 7.31e-08 s, stdev 3.13e-10 s, distance from overall median 73.3 stdevs
+  std::atan<float>(0) : mean time 2.92e-07 s, stdev 2.69e-09 s, distance from overall median 72.8 stdevs
+  the remaining 18 timings are within 0.409 sigma of the overall median
+  alert #5: deviation of 572 sigma for std::atan<float>(nan)
+
+float addition
+  timing................................
+  overall median: 1.49e-09 s
+  float addition of 6.55e+04 and -0 : mean time 1.59e-09 s, stdev 1.02e-10 s, distance from overall median 1.05 stdevs
+  float addition of 255 and nan : mean time 1.6e-09 s, stdev 1.1e-10 s, distance from overall median 1.02 stdevs
+  float addition of 6.55e+04 and 0 : mean time 1.59e-09 s, stdev 1.02e-10 s, distance from overall median 0.98 stdevs
+  float addition of 255 and nan : mean time 1.59e-09 s, stdev 1.09e-10 s, distance from overall median 0.944 stdevs
+  float addition of 255 and -inf : mean time 1.59e-09 s, stdev 1.09e-10 s, distance from overall median 0.936 stdevs
+  float addition of 6.55e+04 and 0 : mean time 1.59e-09 s, stdev 1.08e-10 s, distance from overall median 0.935 stdevs
+  float addition of 6.55e+04 and 0 : mean time 1.58e-09 s, stdev 1.1e-10 s, distance from overall median 0.89 stdevs
+  float addition of 0.5 and -0.00391 : mean time 1.58e-09 s, stdev 1.01e-10 s, distance from overall median 0.885 stdevs
+  the remaining 1080 timings are within 0.871 sigma of the overall median
+
+float subtraction
+  timing................................
+  overall median: 1.49e-09 s
+  float subtraction of 1e-36 from 0 : mean time 1.59e-09 s, stdev 1.09e-10 s, distance from overall median 0.985 stdevs
+  float subtraction of nan from -inf : mean time 1.6e-09 s, stdev 1.15e-10 s, distance from overall median 0.967 stdevs
+  float subtraction of 0.00391 from -inf : mean time 1.59e-09 s, stdev 1.1e-10 s, distance from overall median 0.96 stdevs
+  float subtraction of 0 from 0 : mean time 1.59e-09 s, stdev 1.09e-10 s, distance from overall median 0.951 stdevs
+  float subtraction of -0 from -inf : mean time 1.59e-09 s, stdev 1.13e-10 s, distance from overall median 0.938 stdevs
+  float subtraction of 0 from 0 : mean time 1.5e-09 s, stdev 1.63e-11 s, distance from overall median 0.918 stdevs
+  float subtraction of 0 from 0 : mean time 1.59e-09 s, stdev 1.11e-10 s, distance from overall median 0.914 stdevs
+  float subtraction of 0 from 0 : mean time 1.59e-09 s, stdev 1.14e-10 s, distance from overall median 0.913 stdevs
+  the remaining 1080 timings are within 0.912 sigma of the overall median
+
+float multiplication
+  timing................................
+  overall median: 1.59e-09 s
+  float multiplication of 256 by nan : mean time 2.77e-07 s, stdev 1.48e-09 s, distance from overall median 187 stdevs
+  float multiplication of nan by -255 : mean time 2.74e-07 s, stdev 1.55e-09 s, distance from overall median 175 stdevs
+  float multiplication of nan by 2 : mean time 2.73e-07 s, stdev 1.62e-09 s, distance from overall median 168 stdevs
+  float multiplication of 1e+16 by nan : mean time 2.77e-07 s, stdev 1.66e-09 s, distance from overall median 166 stdevs
+  float multiplication of 2 by nan : mean time 2.78e-07 s, stdev 1.69e-09 s, distance from overall median 163 stdevs
+  float multiplication of 1.68e+07 by nan : mean time 2.77e-07 s, stdev 1.74e-09 s, distance from overall median 158 stdevs
+  float multiplication of inf by nan : mean time 2.77e-07 s, stdev 1.81e-09 s, distance from overall median 152 stdevs
+  float multiplication of -1 by nan : mean time 2.77e-07 s, stdev 1.82e-09 s, distance from overall median 151 stdevs
+  float multiplication of nan by nan : mean time 2.74e-07 s, stdev 1.8e-09 s, distance from overall median 151 stdevs
+  float multiplication of nan by 0.00391 : mean time 2.74e-07 s, stdev 1.8e-09 s, distance from overall median 151 stdevs
+  float multiplication of 0 by nan : mean time 2.77e-07 s, stdev 1.85e-09 s, distance from overall median 149 stdevs
+  float multiplication of nan by -1 : mean time 2.74e-07 s, stdev 1.84e-09 s, distance from overall median 148 stdevs
+  float multiplication of nan by 1.68e+07 : mean time 2.74e-07 s, stdev 1.85e-09 s, distance from overall median 147 stdevs
+  float multiplication of -0 by nan : mean time 2.77e-07 s, stdev 1.91e-09 s, distance from overall median 144 stdevs
+  float multiplication of nan by 6.55e+04 : mean time 2.74e-07 s, stdev 1.9e-09 s, distance from overall median 143 stdevs
+  float multiplication of nan by 1.68e+07 : mean time 2.73e-07 s, stdev 1.92e-09 s, distance from overall median 141 stdevs
+  float multiplication of nan by 1 : mean time 2.74e-07 s, stdev 1.95e-09 s, distance from overall median 139 stdevs
+  float multiplication of nan by 0.0323 : mean time 2.74e-07 s, stdev 1.96e-09 s, distance from overall median 139 stdevs
+  float multiplication of -0 by nan : mean time 2.77e-07 s, stdev 2.01e-09 s, distance from overall median 137 stdevs
+  float multiplication of nan by 256 : mean time 2.75e-07 s, stdev 2.01e-09 s, distance from overall median 136 stdevs
+  float multiplication of 1.68e+07 by nan : mean time 2.78e-07 s, stdev 2.04e-09 s, distance from overall median 135 stdevs
+  float multiplication of 1e+32 by nan : mean time 2.77e-07 s, stdev 2.04e-09 s, distance from overall median 135 stdevs
+  float multiplication of -255 by nan : mean time 2.77e-07 s, stdev 2.05e-09 s, distance from overall median 134 stdevs
+  float multiplication of -1.68e+07 by nan : mean time 2.77e-07 s, stdev 2.09e-09 s, distance from overall median 132 stdevs
+  float multiplication of -1.68e+07 by nan : mean time 2.77e-07 s, stdev 2.12e-09 s, distance from overall median 130 stdevs
+  float multiplication of 255 by nan : mean time 2.78e-07 s, stdev 2.14e-09 s, distance from overall median 129 stdevs
+  float multiplication of 0.5 by nan : mean time 2.78e-07 s, stdev 2.18e-09 s, distance from overall median 127 stdevs
+  float multiplication of nan by -256 : mean time 2.74e-07 s, stdev 2.18e-09 s, distance from overall median 125 stdevs
+  float multiplication of nan by 0.5 : mean time 2.74e-07 s, stdev 2.18e-09 s, distance from overall median 125 stdevs
+  float multiplication of 6.55e+04 by nan : mean time 2.78e-07 s, stdev 2.22e-09 s, distance from overall median 125 stdevs
+  float multiplication of nan by nan : mean time 2.74e-07 s, stdev 2.2e-09 s, distance from overall median 124 stdevs
+  float multiplication of nan by 1e-32 : mean time 2.74e-07 s, stdev 2.24e-09 s, distance from overall median 122 stdevs
+  float multiplication of -256 by nan : mean time 2.78e-07 s, stdev 2.29e-09 s, distance from overall median 120 stdevs
+  float multiplication of nan by -0.00391 : mean time 2.74e-07 s, stdev 2.28e-09 s, distance from overall median 120 stdevs
+  float multiplication of nan by 3e-05 : mean time 2.74e-07 s, stdev 2.28e-09 s, distance from overall median 119 stdevs
+  float multiplication of -inf by nan : mean time 2.77e-07 s, stdev 2.34e-09 s, distance from overall median 118 stdevs
+  float multiplication of -0.00391 by nan : mean time 2.78e-07 s, stdev 2.37e-09 s, distance from overall median 116 stdevs
+  float multiplication of 0 by nan : mean time 2.77e-07 s, stdev 2.37e-09 s, distance from overall median 116 stdevs
+  float multiplication of 0 by nan : mean time 2.79e-07 s, stdev 2.39e-09 s, distance from overall median 116 stdevs
+  float multiplication of nan by nan : mean time 2.77e-07 s, stdev 2.39e-09 s, distance from overall median 115 stdevs
+  float multiplication of 6.55e+04 by nan : mean time 2.77e-07 s, stdev 2.39e-09 s, distance from overall median 115 stdevs
+  float multiplication of nan by -1.68e+07 : mean time 2.74e-07 s, stdev 2.39e-09 s, distance from overall median 114 stdevs
+  float multiplication of nan by -inf : mean time 2.74e-07 s, stdev 2.38e-09 s, distance from overall median 114 stdevs
+  float multiplication of nan by 255 : mean time 2.74e-07 s, stdev 2.45e-09 s, distance from overall median 111 stdevs
+  float multiplication of 1 by nan : mean time 2.77e-07 s, stdev 2.52e-09 s, distance from overall median 109 stdevs
+  float multiplication of nan by -0 : mean time 2.74e-07 s, stdev 2.59e-09 s, distance from overall median 105 stdevs
+  float multiplication of nan by 6.55e+04 : mean time 2.74e-07 s, stdev 2.62e-09 s, distance from overall median 104 stdevs
+  float multiplication of nan by inf : mean time 2.74e-07 s, stdev 2.63e-09 s, distance from overall median 103 stdevs
+  float multiplication of -1e+16 by nan : mean time 2.76e-07 s, stdev 2.66e-09 s, distance from overall median 103 stdevs
+  float multiplication of nan by 0 : mean time 2.74e-07 s, stdev 2.67e-09 s, distance from overall median 102 stdevs
+  float multiplication of nan by -0 : mean time 2.75e-07 s, stdev 2.7e-09 s, distance from overall median 101 stdevs
+  float multiplication of nan by 1e-36 : mean time 2.74e-07 s, stdev 2.71e-09 s, distance from overall median 100 stdevs
+  float multiplication of nan by 1e+32 : mean time 2.74e-07 s, stdev 2.72e-09 s, distance from overall median 100 stdevs
+  float multiplication of 0.0323 by nan : mean time 2.77e-07 s, stdev 2.83e-09 s, distance from overall median 97.2 stdevs
+  float multiplication of nan by -1.68e+07 : mean time 2.74e-07 s, stdev 2.81e-09 s, distance from overall median 97.1 stdevs
+  float multiplication of 1e-36 by nan : mean time 2.77e-07 s, stdev 2.86e-09 s, distance from overall median 96.5 stdevs
+  float multiplication of nan by 1e+16 : mean time 2.74e-07 s, stdev 2.87e-09 s, distance from overall median 94.9 stdevs
+  float multiplication of 0 by nan : mean time 2.77e-07 s, stdev 2.91e-09 s, distance from overall median 94.7 stdevs
+  float multiplication of nan by 0 : mean time 2.74e-07 s, stdev 2.91e-09 s, distance from overall median 93.5 stdevs
+  float multiplication of nan by 0 : mean time 2.75e-07 s, stdev 2.95e-09 s, distance from overall median 92.9 stdevs
+  float multiplication of nan by -1e+16 : mean time 2.74e-07 s, stdev 2.97e-09 s, distance from overall median 91.9 stdevs
+  float multiplication of nan by 0 : mean time 2.76e-07 s, stdev 3.01e-09 s, distance from overall median 91.2 stdevs
+  float multiplication of 1e-32 by nan : mean time 2.77e-07 s, stdev 3.46e-09 s, distance from overall median 79.8 stdevs
+  float multiplication of 3e-05 by nan : mean time 2.78e-07 s, stdev 4.44e-09 s, distance from overall median 62.2 stdevs
+  float multiplication of 0.00391 by nan : mean time 2.78e-07 s, stdev 6.05e-09 s, distance from overall median 45.7 stdevs
+  the remaining 1023 timings are within 0.689 sigma of the overall median
+  alert #6: deviation of 187 sigma for float multiplication of 256 by nan
+
+float division
+  timing................................
+  overall median: 1.07e-08 s
+  float division of 0 by 0 : mean time 1.08e-08 s, stdev 6.86e-11 s, distance from overall median 0.613 stdevs
+  float division of -256 by 0 : mean time 1.07e-08 s, stdev 2.74e-11 s, distance from overall median 0.582 stdevs
+  float division of -1.68e+07 by 6.55e+04 : mean time 1.07e-08 s, stdev 2.37e-11 s, distance from overall median 0.557 stdevs
+  float division of -1e+16 by 1e-32 : mean time 1.07e-08 s, stdev 2.68e-11 s, distance from overall median 0.547 stdevs
+  float division of 1 by -inf : mean time 1.07e-08 s, stdev 3.22e-11 s, distance from overall median 0.539 stdevs
+  float division of -255 by 1 : mean time 1.07e-08 s, stdev 2.98e-11 s, distance from overall median 0.534 stdevs
+  float division of 0 by 256 : mean time 1.07e-08 s, stdev 3.07e-11 s, distance from overall median 0.528 stdevs
+  float division of -1e+16 by 1 : mean time 1.07e-08 s, stdev 2.62e-11 s, distance from overall median 0.504 stdevs
+  the remaining 1080 timings are within 0.492 sigma of the overall median
+
+float equality comparison
+  timing................................
+  overall median: 2.52e-09 s
+  float equality comparison of nan and inf : mean time 2.09e-09 s, stdev 4.89e-11 s, distance from overall median 8.71 stdevs
+  float equality comparison of nan and -inf : mean time 2.09e-09 s, stdev 5.24e-11 s, distance from overall median 8.16 stdevs
+  float equality comparison of 0 and -0 : mean time 2.24e-09 s, stdev 3.83e-11 s, distance from overall median 7.2 stdevs
+  float equality comparison of nan and 1e+32 : mean time 2.09e-09 s, stdev 7.65e-11 s, distance from overall median 5.5 stdevs
+  float equality comparison of nan and 1.68e+07 : mean time 2.11e-09 s, stdev 8.24e-11 s, distance from overall median 4.97 stdevs
+  float equality comparison of nan and -256 : mean time 2.1e-09 s, stdev 8.39e-11 s, distance from overall median 4.94 stdevs
+  float equality comparison of nan and inf : mean time 2.11e-09 s, stdev 8.16e-11 s, distance from overall median 4.92 stdevs
+  float equality comparison of nan and 6.55e+04 : mean time 2.09e-09 s, stdev 8.66e-11 s, distance from overall median 4.9 stdevs
+  float equality comparison of nan and -1.68e+07 : mean time 2.1e-09 s, stdev 8.45e-11 s, distance from overall median 4.89 stdevs
+  float equality comparison of nan and -inf : mean time 2.11e-09 s, stdev 8.36e-11 s, distance from overall median 4.82 stdevs
+  float equality comparison of 0 and -0 : mean time 2.25e-09 s, stdev 5.44e-11 s, distance from overall median 4.82 stdevs
+  float equality comparison of nan and 256 : mean time 2.1e-09 s, stdev 8.73e-11 s, distance from overall median 4.78 stdevs
+  float equality comparison of nan and 255 : mean time 2.09e-09 s, stdev 8.83e-11 s, distance from overall median 4.77 stdevs
+  float equality comparison of nan and -1.68e+07 : mean time 2.1e-09 s, stdev 8.72e-11 s, distance from overall median 4.74 stdevs
+  float equality comparison of nan and nan : mean time 2.1e-09 s, stdev 8.85e-11 s, distance from overall median 4.71 stdevs
+  float equality comparison of nan and nan : mean time 2.1e-09 s, stdev 8.89e-11 s, distance from overall median 4.63 stdevs
+  float equality comparison of nan and 6.55e+04 : mean time 2.09e-09 s, stdev 9.26e-11 s, distance from overall median 4.62 stdevs
+  float equality comparison of nan and -255 : mean time 2.08e-09 s, stdev 9.35e-11 s, distance from overall median 4.61 stdevs
+  float equality comparison of nan and 6.55e+04 : mean time 2.1e-09 s, stdev 9.1e-11 s, distance from overall median 4.56 stdevs
+  float equality comparison of nan and 6.55e+04 : mean time 2.11e-09 s, stdev 9.05e-11 s, distance from overall median 4.52 stdevs
+  float equality comparison of -0 and -0 : mean time 2.24e-09 s, stdev 6.13e-11 s, distance from overall median 4.51 stdevs
+  float equality comparison of nan and 1e-32 : mean time 2.12e-09 s, stdev 8.91e-11 s, distance from overall median 4.47 stdevs
+  float equality comparison of nan and 1e+16 : mean time 2.1e-09 s, stdev 9.4e-11 s, distance from overall median 4.46 stdevs
+  float equality comparison of 0 and -0 : mean time 2.25e-09 s, stdev 6.06e-11 s, distance from overall median 4.4 stdevs
+  float equality comparison of 0 and 0 : mean time 2.25e-09 s, stdev 6.09e-11 s, distance from overall median 4.39 stdevs
+  float equality comparison of nan and -0.00391 : mean time 2.11e-09 s, stdev 9.37e-11 s, distance from overall median 4.34 stdevs
+  float equality comparison of nan and 1.68e+07 : mean time 2.11e-09 s, stdev 9.37e-11 s, distance from overall median 4.34 stdevs
+  float equality comparison of nan and 1e+32 : mean time 2.11e-09 s, stdev 9.31e-11 s, distance from overall median 4.33 stdevs
+  float equality comparison of nan and 0 : mean time 2.11e-09 s, stdev 9.26e-11 s, distance from overall median 4.32 stdevs
+  float equality comparison of 0 and -0 : mean time 2.25e-09 s, stdev 6.12e-11 s, distance from overall median 4.32 stdevs
+  float equality comparison of nan and -0 : mean time 2.12e-09 s, stdev 9.33e-11 s, distance from overall median 4.26 stdevs
+  float equality comparison of nan and -1e+16 : mean time 2.11e-09 s, stdev 9.9e-11 s, distance from overall median 4.09 stdevs
+  float equality comparison of nan and -0 : mean time 2.11e-09 s, stdev 1.01e-10 s, distance from overall median 4.02 stdevs
+  float equality comparison of nan and 0.0323 : mean time 2.12e-09 s, stdev 9.89e-11 s, distance from overall median 4 stdevs
+  float equality comparison of nan and -256 : mean time 2.11e-09 s, stdev 1.02e-10 s, distance from overall median 3.98 stdevs
+  float equality comparison of nan and 0.0323 : mean time 2.11e-09 s, stdev 1.02e-10 s, distance from overall median 3.95 stdevs
+  float equality comparison of nan and 3e-05 : mean time 2.13e-09 s, stdev 1e-10 s, distance from overall median 3.85 stdevs
+  float equality comparison of nan and 0 : mean time 2.11e-09 s, stdev 1.05e-10 s, distance from overall median 3.82 stdevs
+  float equality comparison of nan and 0.00391 : mean time 2.12e-09 s, stdev 1.05e-10 s, distance from overall median 3.8 stdevs
+  float equality comparison of 255 and 255 : mean time 2.33e-09 s, stdev 4.96e-11 s, distance from overall median 3.71 stdevs
+  float equality comparison of nan and 0.5 : mean time 2.12e-09 s, stdev 1.08e-10 s, distance from overall median 3.7 stdevs
+  float equality comparison of -1.68e+07 and -1.68e+07 : mean time 2.34e-09 s, stdev 4.66e-11 s, distance from overall median 3.69 stdevs
+  float equality comparison of -0 and 0 : mean time 2.25e-09 s, stdev 7.17e-11 s, distance from overall median 3.65 stdevs
+  float equality comparison of nan and 3e-05 : mean time 2.13e-09 s, stdev 1.07e-10 s, distance from overall median 3.61 stdevs
+  float equality comparison of 3e-05 and 3e-05 : mean time 2.33e-09 s, stdev 5.26e-11 s, distance from overall median 3.54 stdevs
+  float equality comparison of 1.68e+07 and 1.68e+07 : mean time 2.32e-09 s, stdev 5.55e-11 s, distance from overall median 3.54 stdevs
+  float equality comparison of nan and 0 : mean time 2.12e-09 s, stdev 1.14e-10 s, distance from overall median 3.52 stdevs
+  float equality comparison of nan and -0 : mean time 2.12e-09 s, stdev 1.12e-10 s, distance from overall median 3.52 stdevs
+  float equality comparison of nan and -1 : mean time 2.09e-09 s, stdev 1.2e-10 s, distance from overall median 3.51 stdevs
+  float equality comparison of 0.00391 and 0.00391 : mean time 2.3e-09 s, stdev 6.3e-11 s, distance from overall median 3.46 stdevs
+  float equality comparison of 256 and 256 : mean time 2.32e-09 s, stdev 5.61e-11 s, distance from overall median 3.43 stdevs
+  float equality comparison of -1 and -1 : mean time 2.34e-09 s, stdev 5.3e-11 s, distance from overall median 3.3 stdevs
+  float equality comparison of 0 and 0 : mean time 2.27e-09 s, stdev 7.43e-11 s, distance from overall median 3.25 stdevs
+  float equality comparison of 1e+16 and 1e+16 : mean time 2.33e-09 s, stdev 5.8e-11 s, distance from overall median 3.24 stdevs
+  float equality comparison of nan and 2 : mean time 2.1e-09 s, stdev 1.28e-10 s, distance from overall median 3.23 stdevs
+  float equality comparison of nan and 1e-36 : mean time 2.14e-09 s, stdev 1.17e-10 s, distance from overall median 3.22 stdevs
+  float equality comparison of 1e-32 and 1e-32 : mean time 2.31e-09 s, stdev 6.74e-11 s, distance from overall median 3.11 stdevs
+  float equality comparison of nan and nan : mean time 2.1e-09 s, stdev 1.34e-10 s, distance from overall median 3.11 stdevs
+  float equality comparison of nan and 0 : mean time 2.13e-09 s, stdev 1.27e-10 s, distance from overall median 3.02 stdevs
+  float equality comparison of nan and 0 : mean time 2.13e-09 s, stdev 1.3e-10 s, distance from overall median 3 stdevs
+  float equality comparison of 1.68e+07 and 1.68e+07 : mean time 2.35e-09 s, stdev 5.53e-11 s, distance from overall median 3 stdevs
+  float equality comparison of nan and 2 : mean time 2.13e-09 s, stdev 1.29e-10 s, distance from overall median 2.97 stdevs
+  float equality comparison of nan and 1e-32 : mean time 2.14e-09 s, stdev 1.3e-10 s, distance from overall median 2.89 stdevs
+  float equality comparison of -inf and -inf : mean time 2.33e-09 s, stdev 6.36e-11 s, distance from overall median 2.86 stdevs
+  float equality comparison of nan and 1e-36 : mean time 2.14e-09 s, stdev 1.38e-10 s, distance from overall median 2.74 stdevs
+  float equality comparison of nan and 0.00391 : mean time 2.15e-09 s, stdev 1.42e-10 s, distance from overall median 2.6 stdevs
+  float equality comparison of -0.00391 and -0.00391 : mean time 2.33e-09 s, stdev 7.33e-11 s, distance from overall median 2.58 stdevs
+  float equality comparison of 1e-36 and 1e-36 : mean time 2.33e-09 s, stdev 7.29e-11 s, distance from overall median 2.52 stdevs
+  float equality comparison of nan and 1 : mean time 2.12e-09 s, stdev 1.56e-10 s, distance from overall median 2.5 stdevs
+  float equality comparison of nan and 0 : mean time 2.14e-09 s, stdev 1.52e-10 s, distance from overall median 2.49 stdevs
+  float equality comparison of nan and nan : mean time 2.12e-09 s, stdev 1.61e-10 s, distance from overall median 2.43 stdevs
+  float equality comparison of -0 and -0 : mean time 2.27e-09 s, stdev 1.02e-10 s, distance from overall median 2.43 stdevs
+  float equality comparison of nan and 0.5 : mean time 2.13e-09 s, stdev 1.68e-10 s, distance from overall median 2.3 stdevs
+  float equality comparison of nan and -1e+16 : mean time 2.12e-09 s, stdev 1.72e-10 s, distance from overall median 2.28 stdevs
+  float equality comparison of 6.55e+04 and 6.55e+04 : mean time 2.33e-09 s, stdev 8.37e-11 s, distance from overall median 2.24 stdevs
+  float equality comparison of nan and -0.00391 : mean time 2.15e-09 s, stdev 1.68e-10 s, distance from overall median 2.2 stdevs
+  float equality comparison of nan and -0 : mean time 2.14e-09 s, stdev 1.74e-10 s, distance from overall median 2.18 stdevs
+  float equality comparison of 0.5 and 0.5 : mean time 2.35e-09 s, stdev 7.56e-11 s, distance from overall median 2.17 stdevs
+  float equality comparison of nan and 1.68e+07 : mean time 2.11e-09 s, stdev 1.89e-10 s, distance from overall median 2.15 stdevs
+  float equality comparison of inf and inf : mean time 2.35e-09 s, stdev 8.02e-11 s, distance from overall median 2.11 stdevs
+  float equality comparison of nan and -1.68e+07 : mean time 2.12e-09 s, stdev 1.89e-10 s, distance from overall median 2.09 stdevs
+  float equality comparison of nan and -1.68e+07 : mean time 2.13e-09 s, stdev 1.86e-10 s, distance from overall median 2.07 stdevs
+  float equality comparison of nan and 1.68e+07 : mean time 2.12e-09 s, stdev 1.92e-10 s, distance from overall median 2.07 stdevs
+  float equality comparison of nan and 1e+16 : mean time 2.13e-09 s, stdev 1.89e-10 s, distance from overall median 2.07 stdevs
+  float equality comparison of 1 and 1 : mean time 2.33e-09 s, stdev 8.76e-11 s, distance from overall median 2.07 stdevs
+  float equality comparison of nan and -255 : mean time 2.13e-09 s, stdev 1.87e-10 s, distance from overall median 2.06 stdevs
+  float equality comparison of -256 and -256 : mean time 2.34e-09 s, stdev 8.91e-11 s, distance from overall median 1.99 stdevs
+  float equality comparison of nan and 0 : mean time 2.17e-09 s, stdev 1.8e-10 s, distance from overall median 1.9 stdevs
+  float equality comparison of nan and -1 : mean time 2.14e-09 s, stdev 1.96e-10 s, distance from overall median 1.9 stdevs
+  float equality comparison of nan and 1 : mean time 2.15e-09 s, stdev 1.96e-10 s, distance from overall median 1.89 stdevs
+  float equality comparison of 0 and 0 : mean time 2.28e-09 s, stdev 1.25e-10 s, distance from overall median 1.85 stdevs
+  float equality comparison of nan and 255 : mean time 2.13e-09 s, stdev 2.09e-10 s, distance from overall median 1.85 stdevs
+  float equality comparison of nan and 256 : mean time 2.15e-09 s, stdev 2.05e-10 s, distance from overall median 1.77 stdevs
+  float equality comparison of 0 and 0 : mean time 2.31e-09 s, stdev 1.24e-10 s, distance from overall median 1.69 stdevs
+  float equality comparison of 0 and 0 : mean time 2.27e-09 s, stdev 1.45e-10 s, distance from overall median 1.68 stdevs
+  the remaining 993 timings are within 1.64 sigma of the overall median
+  alert #7: deviation of 8.71 sigma for float equality comparison of nan and inf
+
+std::max<float>
+  timing................................
+  overall median: 3.15e-09 s
+  std::max<float>(0.00391, 1e-32) : mean time 3.15e-09 s, stdev 1.18e-11 s, distance from overall median 0.516 stdevs
+  std::max<float>(3e-05, nan) : mean time 3.15e-09 s, stdev 1.74e-11 s, distance from overall median 0.512 stdevs
+  std::max<float>(-1e+16, 1.68e+07) : mean time 3.16e-09 s, stdev 2.42e-11 s, distance from overall median 0.507 stdevs
+  std::max<float>(-0.00391, -1e+16) : mean time 3.15e-09 s, stdev 1.46e-11 s, distance from overall median 0.483 stdevs
+  std::max<float>(1e+16, 1.68e+07) : mean time 3.15e-09 s, stdev 1.81e-11 s, distance from overall median 0.461 stdevs
+  std::max<float>(6.55e+04, nan) : mean time 3.15e-09 s, stdev 1.46e-11 s, distance from overall median 0.449 stdevs
+  std::max<float>(-1.68e+07, -1.68e+07) : mean time 3.16e-09 s, stdev 2.61e-11 s, distance from overall median 0.443 stdevs
+  std::max<float>(-1.68e+07, -1.68e+07) : mean time 3.15e-09 s, stdev 1.72e-11 s, distance from overall median 0.44 stdevs
+  the remaining 1080 timings are within 0.438 sigma of the overall median
+
+conversion from double to float
+  timing................................
+  overall median: 2.02e-09 s
+  conversion from double to float of -inf : mean time 2.04e-09 s, stdev 3.73e-11 s, distance from overall median 0.507 stdevs
+  conversion from double to float of 4.94e-324 : mean time 2.03e-09 s, stdev 2.57e-11 s, distance from overall median 0.483 stdevs
+  conversion from double to float of 0 : mean time 2.03e-09 s, stdev 3.49e-11 s, distance from overall median 0.481 stdevs
+  conversion from double to float of 0.0323 : mean time 2.04e-09 s, stdev 4.11e-11 s, distance from overall median 0.449 stdevs
+  conversion from double to float of -1e-320 : mean time 2.03e-09 s, stdev 2.99e-11 s, distance from overall median 0.439 stdevs
+  conversion from double to float of 6.55e+04 : mean time 2.01e-09 s, stdev 2.45e-11 s, distance from overall median 0.402 stdevs
+  conversion from double to float of -1e-310 : mean time 2.03e-09 s, stdev 2.9e-11 s, distance from overall median 0.375 stdevs
+  conversion from double to float of -1 : mean time 2.03e-09 s, stdev 3.29e-11 s, distance from overall median 0.315 stdevs
+  the remaining 24 timings are within 0.3 sigma of the overall median
+
+conversion from double to int8
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from double to int8 of -0.00391 : mean time 1.68e-09 s, stdev 1.15e-11 s, distance from overall median 0.442 stdevs
+  conversion from double to int8 of 0 : mean time 1.68e-09 s, stdev 1.15e-11 s, distance from overall median 0.358 stdevs
+  conversion from double to int8 of -1e-320 : mean time 1.68e-09 s, stdev 8.09e-12 s, distance from overall median 0.345 stdevs
+  conversion from double to int8 of 4.94e-324 : mean time 1.68e-09 s, stdev 9.47e-12 s, distance from overall median 0.31 stdevs
+  conversion from double to int8 of -1e-310 : mean time 1.68e-09 s, stdev 8.76e-12 s, distance from overall median 0.305 stdevs
+  conversion from double to int8 of 1.68e+07 : mean time 1.69e-09 s, stdev 3.49e-11 s, distance from overall median 0.292 stdevs
+  conversion from double to int8 of -1e+16 : mean time 1.69e-09 s, stdev 3.02e-11 s, distance from overall median 0.276 stdevs
+  conversion from double to int8 of nan : mean time 1.68e-09 s, stdev 1.48e-11 s, distance from overall median 0.268 stdevs
+  the remaining 24 timings are within 0.241 sigma of the overall median
+
+conversion from double to int16
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from double to int16 of 1e-306 : mean time 1.71e-09 s, stdev 6.09e-11 s, distance from overall median 0.517 stdevs
+  conversion from double to int16 of 1e-306 : mean time 1.71e-09 s, stdev 5.74e-11 s, distance from overall median 0.493 stdevs
+  conversion from double to int16 of -1e-310 : mean time 1.7e-09 s, stdev 4.77e-11 s, distance from overall median 0.461 stdevs
+  conversion from double to int16 of 0.00391 : mean time 1.7e-09 s, stdev 4.77e-11 s, distance from overall median 0.446 stdevs
+  conversion from double to int16 of 3e-05 : mean time 1.7e-09 s, stdev 4.32e-11 s, distance from overall median 0.418 stdevs
+  conversion from double to int16 of 1.68e+07 : mean time 1.7e-09 s, stdev 3.75e-11 s, distance from overall median 0.41 stdevs
+  conversion from double to int16 of 1e-310 : mean time 1.7e-09 s, stdev 4.39e-11 s, distance from overall median 0.402 stdevs
+  conversion from double to int16 of -inf : mean time 1.7e-09 s, stdev 4.26e-11 s, distance from overall median 0.383 stdevs
+  the remaining 24 timings are within 0.38 sigma of the overall median
+
+conversion from double to int32
+  timing................................
+  overall median: 1.68e-09 s
+  conversion from double to int32 of 6.55e+04 : mean time 1.69e-09 s, stdev 1.11e-11 s, distance from overall median 0.476 stdevs
+  conversion from double to int32 of 1e-310 : mean time 1.7e-09 s, stdev 4.98e-11 s, distance from overall median 0.354 stdevs
+  conversion from double to int32 of 1.68e+07 : mean time 1.68e-09 s, stdev 7.11e-12 s, distance from overall median 0.322 stdevs
+  conversion from double to int32 of 256 : mean time 1.68e-09 s, stdev 3.99e-12 s, distance from overall median 0.309 stdevs
+  conversion from double to int32 of -0.00391 : mean time 1.69e-09 s, stdev 4.11e-11 s, distance from overall median 0.3 stdevs
+  conversion from double to int32 of 1 : mean time 1.69e-09 s, stdev 3.4e-11 s, distance from overall median 0.298 stdevs
+  conversion from double to int32 of 0.00391 : mean time 1.69e-09 s, stdev 3.42e-11 s, distance from overall median 0.296 stdevs
+  conversion from double to int32 of 0.0323 : mean time 1.69e-09 s, stdev 4.06e-11 s, distance from overall median 0.296 stdevs
+  the remaining 24 timings are within 0.278 sigma of the overall median
+
+conversion from double to int64
+  timing................................
+  overall median: 8.37e-09 s
+  conversion from double to int64 of inf : mean time 3.8e-07 s, stdev 7.57e-10 s, distance from overall median 492 stdevs
+  conversion from double to int64 of 1e+300 : mean time 3.81e-07 s, stdev 1.28e-09 s, distance from overall median 291 stdevs
+  conversion from double to int64 of nan : mean time 7.36e-07 s, stdev 2.58e-09 s, distance from overall median 282 stdevs
+  conversion from double to int64 of -inf : mean time 3.8e-07 s, stdev 1.37e-09 s, distance from overall median 272 stdevs
+  conversion from double to int64 of nan : mean time 3.81e-07 s, stdev 1.94e-09 s, distance from overall median 192 stdevs
+  conversion from double to int64 of 4.94e-324 : mean time 8.26e-08 s, stdev 5.84e-10 s, distance from overall median 127 stdevs
+  conversion from double to int64 of 1e-320 : mean time 8.27e-08 s, stdev 8.85e-10 s, distance from overall median 83.9 stdevs
+  conversion from double to int64 of -1e-320 : mean time 8.26e-08 s, stdev 9.41e-10 s, distance from overall median 78.9 stdevs
+  conversion from double to int64 of -1e-310 : mean time 8.27e-08 s, stdev 1.02e-09 s, distance from overall median 73.2 stdevs
+  conversion from double to int64 of 1e-310 : mean time 8.26e-08 s, stdev 1.14e-09 s, distance from overall median 65.1 stdevs
+  the remaining 22 timings are within 1.21 sigma of the overall median
+  alert #8: deviation of 492 sigma for conversion from double to int64 of inf
+
+std::exp<double>
+  timing................................
+  overall median: 1.12e-07 s
+  std::exp<double>(nan) : mean time 2.47e-06 s, stdev 4.37e-09 s, distance from overall median 539 stdevs
+  std::exp<double>(nan) : mean time 2.11e-06 s, stdev 4.31e-09 s, distance from overall median 465 stdevs
+  std::exp<double>(4.94e-324) : mean time 4.04e-07 s, stdev 1.49e-09 s, distance from overall median 196 stdevs
+  std::exp<double>(1e-310) : mean time 4.05e-07 s, stdev 1.59e-09 s, distance from overall median 184 stdevs
+  std::exp<double>(-1e-320) : mean time 4.04e-07 s, stdev 2.19e-09 s, distance from overall median 133 stdevs
+  std::exp<double>(-1e-310) : mean time 4.04e-07 s, stdev 2.33e-09 s, distance from overall median 126 stdevs
+  std::exp<double>(1) : mean time 7.64e-08 s, stdev 2.99e-10 s, distance from overall median 118 stdevs
+  std::exp<double>(1e-320) : mean time 4.04e-07 s, stdev 2.64e-09 s, distance from overall median 111 stdevs
+  std::exp<double>(0.5) : mean time 7.65e-08 s, stdev 4.09e-10 s, distance from overall median 85.8 stdevs
+  std::exp<double>(-1) : mean time 7.65e-08 s, stdev 4.45e-10 s, distance from overall median 78.9 stdevs
+  std::exp<double>(-256) : mean time 7.65e-08 s, stdev 4.54e-10 s, distance from overall median 77.4 stdevs
+  std::exp<double>(1e-306) : mean time 1.49e-07 s, stdev 5.04e-10 s, distance from overall median 74.1 stdevs
+  std::exp<double>(256) : mean time 7.65e-08 s, stdev 4.82e-10 s, distance from overall median 72.9 stdevs
+  std::exp<double>(inf) : mean time 2.31e-08 s, stdev 1.58e-09 s, distance from overall median 56 stdevs
+  std::exp<double>(6.55e+04) : mean time 2.38e-08 s, stdev 1.67e-09 s, distance from overall median 52.6 stdevs
+  std::exp<double>(6.55e+04) : mean time 2.41e-08 s, stdev 1.78e-09 s, distance from overall median 49.1 stdevs
+  std::exp<double>(1.68e+07) : mean time 2.34e-08 s, stdev 1.81e-09 s, distance from overall median 48.8 stdevs
+  std::exp<double>(1e+300) : mean time 2.33e-08 s, stdev 1.83e-09 s, distance from overall median 48.3 stdevs
+  std::exp<double>(1.68e+07) : mean time 2.35e-08 s, stdev 1.85e-09 s, distance from overall median 47.7 stdevs
+  std::exp<double>(1e+16) : mean time 2.36e-08 s, stdev 1.85e-09 s, distance from overall median 47.5 stdevs
+  std::exp<double>(-0.00391) : mean time 1.41e-07 s, stdev 7.28e-10 s, distance from overall median 40.5 stdevs
+  std::exp<double>(-1.68e+07) : mean time 2.67e-08 s, stdev 2.39e-09 s, distance from overall median 35.5 stdevs
+  std::exp<double>(-inf) : mean time 2.51e-08 s, stdev 2.48e-09 s, distance from overall median 34.9 stdevs
+  std::exp<double>(-1e+16) : mean time 2.54e-08 s, stdev 2.52e-09 s, distance from overall median 34.2 stdevs
+  std::exp<double>(-1.68e+07) : mean time 2.65e-08 s, stdev 2.62e-09 s, distance from overall median 32.5 stdevs
+  std::exp<double>(0.0323) : mean time 1.41e-07 s, stdev 9.86e-10 s, distance from overall median 30.2 stdevs
+  std::exp<double>(3e-05) : mean time 1.41e-07 s, stdev 9.98e-10 s, distance from overall median 29.9 stdevs
+  std::exp<double>(0.00391) : mean time 1.41e-07 s, stdev 1.04e-09 s, distance from overall median 28.4 stdevs
+  std::exp<double>(1e-306) : mean time 1.49e-07 s, stdev 1.61e-09 s, distance from overall median 23.5 stdevs
+  std::exp<double>(255) : mean time 1.16e-07 s, stdev 1.12e-09 s, distance from overall median 3.94 stdevs
+  std::exp<double>(-255) : mean time 1.16e-07 s, stdev 1.26e-09 s, distance from overall median 3.37 stdevs
+  std::exp<double>(2) : mean time 1.16e-07 s, stdev 1.26e-09 s, distance from overall median 3.37 stdevs
+  alert #9: deviation of 539 sigma for std::exp<double>(nan)
+
+std::log<double>
+  timing................................
+  overall median: 1.04e-07 s
+  std::log<double>(1.68e+07) : mean time 4.42e-08 s, stdev 1.31e-10 s, distance from overall median 458 stdevs
+  std::log<double>(nan) : mean time 9.38e-09 s, stdev 2.16e-10 s, distance from overall median 438 stdevs
+  std::log<double>(0.5) : mean time 4.42e-08 s, stdev 1.62e-10 s, distance from overall median 369 stdevs
+  std::log<double>(-1e+16) : mean time 3.74e-07 s, stdev 9.5e-10 s, distance from overall median 284 stdevs
+  std::log<double>(-255) : mean time 3.74e-07 s, stdev 9.71e-10 s, distance from overall median 278 stdevs
+  std::log<double>(-1.68e+07) : mean time 3.74e-07 s, stdev 9.77e-10 s, distance from overall median 276 stdevs
+  std::log<double>(2) : mean time 4.42e-08 s, stdev 2.28e-10 s, distance from overall median 263 stdevs
+  std::log<double>(256) : mean time 4.43e-08 s, stdev 2.52e-10 s, distance from overall median 237 stdevs
+  std::log<double>(1.68e+07) : mean time 4.42e-08 s, stdev 2.89e-10 s, distance from overall median 207 stdevs
+  std::log<double>(-256) : mean time 3.74e-07 s, stdev 1.32e-09 s, distance from overall median 205 stdevs
+  std::log<double>(1e-306) : mean time 4.43e-08 s, stdev 2.96e-10 s, distance from overall median 202 stdevs
+  std::log<double>(1e-310) : mean time 3.43e-07 s, stdev 1.27e-09 s, distance from overall median 189 stdevs
+  std::log<double>(255) : mean time 4.43e-08 s, stdev 3.17e-10 s, distance from overall median 188 stdevs
+  std::log<double>(6.55e+04) : mean time 4.43e-08 s, stdev 3.22e-10 s, distance from overall median 186 stdevs
+  std::log<double>(1e+300) : mean time 4.42e-08 s, stdev 3.59e-10 s, distance from overall median 167 stdevs
+  std::log<double>(3e-05) : mean time 4.43e-08 s, stdev 3.76e-10 s, distance from overall median 159 stdevs
+  std::log<double>(0.00391) : mean time 4.44e-08 s, stdev 3.85e-10 s, distance from overall median 155 stdevs
+  std::log<double>(6.55e+04) : mean time 4.43e-08 s, stdev 3.95e-10 s, distance from overall median 151 stdevs
+  std::log<double>(1e-306) : mean time 4.42e-08 s, stdev 4.11e-10 s, distance from overall median 146 stdevs
+  std::log<double>(-0.00391) : mean time 3.75e-07 s, stdev 2.05e-09 s, distance from overall median 132 stdevs
+  std::log<double>(1e+16) : mean time 4.43e-08 s, stdev 4.58e-10 s, distance from overall median 130 stdevs
+  std::log<double>(-1e-310) : mean time 1.07e-06 s, stdev 8.4e-09 s, distance from overall median 115 stdevs
+  std::log<double>(-1e-320) : mean time 1.07e-06 s, stdev 9.23e-09 s, distance from overall median 104 stdevs
+  std::log<double>(4.94e-324) : mean time 3.44e-07 s, stdev 2.39e-09 s, distance from overall median 100 stdevs
+  std::log<double>(-1) : mean time 3.75e-07 s, stdev 2.84e-09 s, distance from overall median 95.4 stdevs
+  std::log<double>(-inf) : mean time 3.74e-07 s, stdev 2.92e-09 s, distance from overall median 92.7 stdevs
+  std::log<double>(0) : mean time 3.82e-07 s, stdev 3.04e-09 s, distance from overall median 91.7 stdevs
+  std::log<double>(1e-320) : mean time 3.46e-07 s, stdev 2.7e-09 s, distance from overall median 89.3 stdevs
+  std::log<double>(-1.68e+07) : mean time 3.75e-07 s, stdev 3.08e-09 s, distance from overall median 88 stdevs
+  std::log<double>(nan) : mean time 3.69e-07 s, stdev 4.28e-09 s, distance from overall median 61.9 stdevs
+  std::log<double>(0.0323) : mean time 4.46e-08 s, stdev 2.19e-09 s, distance from overall median 27.2 stdevs
+  std::log<double>(inf) : mean time 1.19e-07 s, stdev 8.27e-10 s, distance from overall median 18.3 stdevs
+  alert #10: deviation of 458 sigma for std::log<double>(1.68e+07)
+
+std::cos<double>
+  timing................................
+  overall median: 8.02e-08 s
+  std::cos<double>(inf) : mean time 3.46e-07 s, stdev 7.39e-10 s, distance from overall median 359 stdevs
+  std::cos<double>(nan) : mean time 7.19e-07 s, stdev 3.82e-09 s, distance from overall median 167 stdevs
+  std::cos<double>(nan) : mean time 3.63e-07 s, stdev 1.78e-09 s, distance from overall median 159 stdevs
+  std::cos<double>(-1e-310) : mean time 1.37e-07 s, stdev 4.27e-10 s, distance from overall median 134 stdevs
+  std::cos<double>(-inf) : mean time 3.46e-07 s, stdev 2.27e-09 s, distance from overall median 117 stdevs
+  std::cos<double>(1e+300) : mean time 1.05e-06 s, stdev 9.05e-09 s, distance from overall median 107 stdevs
+  std::cos<double>(2) : mean time 6.25e-08 s, stdev 1.89e-10 s, distance from overall median 93.6 stdevs
+  std::cos<double>(-1e-320) : mean time 1.38e-07 s, stdev 6.15e-10 s, distance from overall median 93.5 stdevs
+  std::cos<double>(1.68e+07) : mean time 6.25e-08 s, stdev 1.96e-10 s, distance from overall median 90.3 stdevs
+  std::cos<double>(0.5) : mean time 6.4e-08 s, stdev 1.99e-10 s, distance from overall median 81.3 stdevs
+  std::cos<double>(-1) : mean time 6.26e-08 s, stdev 2.35e-10 s, distance from overall median 75 stdevs
+  std::cos<double>(255) : mean time 6.36e-08 s, stdev 2.3e-10 s, distance from overall median 72.3 stdevs
+  std::cos<double>(1e+16) : mean time 6.45e-08 s, stdev 2.38e-10 s, distance from overall median 66.1 stdevs
+  std::cos<double>(4.94e-324) : mean time 1.37e-07 s, stdev 9.08e-10 s, distance from overall median 62.4 stdevs
+  std::cos<double>(-1.68e+07) : mean time 6.26e-08 s, stdev 2.95e-10 s, distance from overall median 59.6 stdevs
+  std::cos<double>(1e-310) : mean time 1.38e-07 s, stdev 9.79e-10 s, distance from overall median 58.9 stdevs
+  std::cos<double>(1) : mean time 6.26e-08 s, stdev 4.85e-10 s, distance from overall median 36.2 stdevs
+  std::cos<double>(1.68e+07) : mean time 6.26e-08 s, stdev 5e-10 s, distance from overall median 35.3 stdevs
+  std::cos<double>(0) : mean time 5.81e-08 s, stdev 6.74e-10 s, distance from overall median 32.7 stdevs
+  std::cos<double>(1e-320) : mean time 1.38e-07 s, stdev 1.81e-09 s, distance from overall median 31.7 stdevs
+  std::cos<double>(-1.68e+07) : mean time 6.27e-08 s, stdev 6.09e-10 s, distance from overall median 28.7 stdevs
+  std::cos<double>(-1e+16) : mean time 6.47e-08 s, stdev 5.68e-10 s, distance from overall median 27.3 stdevs
+  std::cos<double>(1e-306) : mean time 6.93e-08 s, stdev 4.25e-10 s, distance from overall median 25.5 stdevs
+  std::cos<double>(-255) : mean time 6.38e-08 s, stdev 7.11e-10 s, distance from overall median 23.1 stdevs
+  std::cos<double>(1e-306) : mean time 6.95e-08 s, stdev 8.09e-10 s, distance from overall median 13.2 stdevs
+  std::cos<double>(6.55e+04) : mean time 6.42e-08 s, stdev 1.38e-09 s, distance from overall median 11.6 stdevs
+  the remaining 6 timings are within 1.35 sigma of the overall median
+  alert #11: deviation of 359 sigma for std::cos<double>(inf)
+
+std::atan<double>
+  timing................................
+  overall median: 9.97e-08 s
+  std::atan<double>(nan) : mean time 6.95e-07 s, stdev 1.71e-09 s, distance from overall median 349 stdevs
+  std::atan<double>(1) : mean time 6.38e-08 s, stdev 1.86e-10 s, distance from overall median 193 stdevs
+  std::atan<double>(2) : mean time 6.38e-08 s, stdev 1.98e-10 s, distance from overall median 181 stdevs
+  std::atan<double>(0.5) : mean time 6.38e-08 s, stdev 2.2e-10 s, distance from overall median 163 stdevs
+  std::atan<double>(-1) : mean time 6.38e-08 s, stdev 2.44e-10 s, distance from overall median 147 stdevs
+  std::atan<double>(nan) : mean time 3.39e-07 s, stdev 1.8e-09 s, distance from overall median 133 stdevs
+  std::atan<double>(4.94e-324) : mean time 2.98e-07 s, stdev 1.84e-09 s, distance from overall median 107 stdevs
+  std::atan<double>(-1e-320) : mean time 2.98e-07 s, stdev 2.26e-09 s, distance from overall median 88 stdevs
+  std::atan<double>(1e-310) : mean time 2.99e-07 s, stdev 2.44e-09 s, distance from overall median 81.6 stdevs
+  std::atan<double>(1e-320) : mean time 2.98e-07 s, stdev 2.68e-09 s, distance from overall median 74.1 stdevs
+  std::atan<double>(0) : mean time 7.81e-08 s, stdev 3.01e-10 s, distance from overall median 71.9 stdevs
+  std::atan<double>(-1e-310) : mean time 3e-07 s, stdev 2.9e-09 s, distance from overall median 69 stdevs
+  std::atan<double>(inf) : mean time 7.73e-08 s, stdev 4.25e-10 s, distance from overall median 52.6 stdevs
+  std::atan<double>(-inf) : mean time 7.76e-08 s, stdev 1.62e-09 s, distance from overall median 13.7 stdevs
+  the remaining 18 timings are within 0.285 sigma of the overall median
+  alert #12: deviation of 349 sigma for std::atan<double>(nan)
+
+double addition
+  timing................................
+  overall median: 1.53e-09 s
+  double addition of 6.55e+04 and 1e-306 : mean time 1.66e-09 s, stdev 1.31e-10 s, distance from overall median 1.06 stdevs
+  double addition of 6.55e+04 and 3e-05 : mean time 1.65e-09 s, stdev 1.17e-10 s, distance from overall median 1.06 stdevs
+  double addition of 1e-306 and 1e+16 : mean time 1.65e-09 s, stdev 1.19e-10 s, distance from overall median 1.02 stdevs
+  double addition of 1 and 0.00391 : mean time 1.65e-09 s, stdev 1.23e-10 s, distance from overall median 1.02 stdevs
+  double addition of 6.55e+04 and -1e-310 : mean time 1.67e-09 s, stdev 1.52e-10 s, distance from overall median 0.976 stdevs
+  double addition of 6.55e+04 and 1e-306 : mean time 1.67e-09 s, stdev 1.46e-10 s, distance from overall median 0.964 stdevs
+  double addition of nan and 1e-306 : mean time 1.63e-09 s, stdev 1.15e-10 s, distance from overall median 0.938 stdevs
+  double addition of -256 and 3e-05 : mean time 1.65e-09 s, stdev 1.31e-10 s, distance from overall median 0.937 stdevs
+  the remaining 1080 timings are within 0.928 sigma of the overall median
+
+double subtraction
+  timing................................
+  overall median: 1.52e-09 s
+  double subtraction of 0.0323 from 1e-306 : mean time 1.64e-09 s, stdev 1.25e-10 s, distance from overall median 0.991 stdevs
+  double subtraction of 0.5 from 1e-306 : mean time 1.65e-09 s, stdev 1.28e-10 s, distance from overall median 0.986 stdevs
+  double subtraction of inf from -1e-320 : mean time 1.64e-09 s, stdev 1.31e-10 s, distance from overall median 0.9 stdevs
+  double subtraction of -1e-310 from -1.68e+07 : mean time 1.64e-09 s, stdev 1.31e-10 s, distance from overall median 0.898 stdevs
+  double subtraction of 1 from 1e-306 : mean time 1.64e-09 s, stdev 1.35e-10 s, distance from overall median 0.893 stdevs
+  double subtraction of -256 from inf : mean time 1.63e-09 s, stdev 1.27e-10 s, distance from overall median 0.88 stdevs
+  double subtraction of 1e-310 from -1.68e+07 : mean time 1.64e-09 s, stdev 1.4e-10 s, distance from overall median 0.874 stdevs
+  double subtraction of -1 from -255 : mean time 1.62e-09 s, stdev 1.19e-10 s, distance from overall median 0.866 stdevs
+  the remaining 1080 timings are within 0.85 sigma of the overall median
+
+double multiplication
+  timing................................
+  overall median: 1.58e-09 s
+  double multiplication of -256 by nan : mean time 2.77e-07 s, stdev 1.43e-09 s, distance from overall median 193 stdevs
+  double multiplication of 3e-05 by nan : mean time 2.78e-07 s, stdev 1.49e-09 s, distance from overall median 185 stdevs
+  double multiplication of 0.00391 by nan : mean time 2.78e-07 s, stdev 1.61e-09 s, distance from overall median 171 stdevs
+  double multiplication of -255 by nan : mean time 2.78e-07 s, stdev 1.91e-09 s, distance from overall median 144 stdevs
+  double multiplication of 1e+16 by nan : mean time 2.77e-07 s, stdev 1.92e-09 s, distance from overall median 144 stdevs
+  double multiplication of 0.0323 by nan : mean time 2.78e-07 s, stdev 1.98e-09 s, distance from overall median 139 stdevs
+  double multiplication of 0.5 by nan : mean time 2.78e-07 s, stdev 2.01e-09 s, distance from overall median 138 stdevs
+  double multiplication of -1e-320 by nan : mean time 2.78e-07 s, stdev 2.03e-09 s, distance from overall median 136 stdevs
+  double multiplication of 1e+300 by nan : mean time 2.77e-07 s, stdev 2.04e-09 s, distance from overall median 135 stdevs
+  double multiplication of 0 by nan : mean time 2.77e-07 s, stdev 2.04e-09 s, distance from overall median 135 stdevs
+  double multiplication of 1e-306 by nan : mean time 2.77e-07 s, stdev 2.05e-09 s, distance from overall median 134 stdevs
+  double multiplication of 256 by nan : mean time 2.78e-07 s, stdev 2.11e-09 s, distance from overall median 131 stdevs
+  double multiplication of nan by nan : mean time 2.78e-07 s, stdev 2.14e-09 s, distance from overall median 129 stdevs
+  double multiplication of 1.68e+07 by nan : mean time 2.78e-07 s, stdev 2.24e-09 s, distance from overall median 123 stdevs
+  double multiplication of -1.68e+07 by nan : mean time 2.78e-07 s, stdev 2.26e-09 s, distance from overall median 122 stdevs
+  double multiplication of nan by 1.68e+07 : mean time 2.75e-07 s, stdev 2.29e-09 s, distance from overall median 119 stdevs
+  double multiplication of 6.55e+04 by nan : mean time 2.77e-07 s, stdev 2.32e-09 s, distance from overall median 119 stdevs
+  double multiplication of 1e-306 by nan : mean time 2.78e-07 s, stdev 2.36e-09 s, distance from overall median 117 stdevs
+  double multiplication of nan by -1 : mean time 2.75e-07 s, stdev 2.4e-09 s, distance from overall median 114 stdevs
+  double multiplication of -1e-310 by nan : mean time 2.78e-07 s, stdev 2.44e-09 s, distance from overall median 113 stdevs
+  double multiplication of -1.68e+07 by nan : mean time 2.77e-07 s, stdev 2.44e-09 s, distance from overall median 113 stdevs
+  double multiplication of nan by 0.5 : mean time 2.74e-07 s, stdev 2.47e-09 s, distance from overall median 111 stdevs
+  double multiplication of -inf by nan : mean time 2.77e-07 s, stdev 2.52e-09 s, distance from overall median 109 stdevs
+  double multiplication of nan by -256 : mean time 2.74e-07 s, stdev 2.52e-09 s, distance from overall median 108 stdevs
+  double multiplication of 4.94e-324 by nan : mean time 2.77e-07 s, stdev 2.57e-09 s, distance from overall median 107 stdevs
+  double multiplication of 1e-320 by nan : mean time 2.77e-07 s, stdev 2.65e-09 s, distance from overall median 104 stdevs
+  double multiplication of nan by 255 : mean time 2.75e-07 s, stdev 2.64e-09 s, distance from overall median 103 stdevs
+  double multiplication of nan by -inf : mean time 2.75e-07 s, stdev 2.68e-09 s, distance from overall median 102 stdevs
+  double multiplication of -0.00391 by nan : mean time 2.77e-07 s, stdev 2.71e-09 s, distance from overall median 102 stdevs
+  double multiplication of nan by -255 : mean time 2.75e-07 s, stdev 2.7e-09 s, distance from overall median 101 stdevs
+  double multiplication of nan by inf : mean time 2.76e-07 s, stdev 2.75e-09 s, distance from overall median 99.5 stdevs
+  double multiplication of 2 by nan : mean time 2.78e-07 s, stdev 2.79e-09 s, distance from overall median 99.3 stdevs
+  double multiplication of nan by 256 : mean time 2.74e-07 s, stdev 2.75e-09 s, distance from overall median 99.1 stdevs
+  double multiplication of nan by -1.68e+07 : mean time 2.75e-07 s, stdev 2.77e-09 s, distance from overall median 98.7 stdevs
+  double multiplication of 6.55e+04 by nan : mean time 2.78e-07 s, stdev 2.8e-09 s, distance from overall median 98.4 stdevs
+  double multiplication of nan by 6.55e+04 : mean time 2.74e-07 s, stdev 2.8e-09 s, distance from overall median 97.3 stdevs
+  double multiplication of nan by -1e+16 : mean time 2.75e-07 s, stdev 2.86e-09 s, distance from overall median 95.6 stdevs
+  double multiplication of 255 by nan : mean time 2.78e-07 s, stdev 2.89e-09 s, distance from overall median 95.5 stdevs
+  double multiplication of nan by 1e-306 : mean time 2.74e-07 s, stdev 2.88e-09 s, distance from overall median 94.7 stdevs
+  double multiplication of nan by 1e-310 : mean time 2.73e-07 s, stdev 2.88e-09 s, distance from overall median 94.5 stdevs
+  double multiplication of nan by 0 : mean time 2.75e-07 s, stdev 2.91e-09 s, distance from overall median 93.9 stdevs
+  double multiplication of nan by nan : mean time 2.75e-07 s, stdev 2.94e-09 s, distance from overall median 93 stdevs
+  double multiplication of nan by 1.68e+07 : mean time 2.75e-07 s, stdev 2.94e-09 s, distance from overall median 92.9 stdevs
+  double multiplication of nan by 1e+16 : mean time 2.75e-07 s, stdev 2.94e-09 s, distance from overall median 92.9 stdevs
+  double multiplication of nan by 6.55e+04 : mean time 2.75e-07 s, stdev 2.95e-09 s, distance from overall median 92.8 stdevs
+  double multiplication of nan by 1e+300 : mean time 2.75e-07 s, stdev 2.97e-09 s, distance from overall median 92.3 stdevs
+  double multiplication of 1e-310 by nan : mean time 2.78e-07 s, stdev 3.04e-09 s, distance from overall median 91 stdevs
+  double multiplication of inf by nan : mean time 2.78e-07 s, stdev 3.05e-09 s, distance from overall median 90.7 stdevs
+  double multiplication of 1 by nan : mean time 2.77e-07 s, stdev 3.04e-09 s, distance from overall median 90.6 stdevs
+  double multiplication of nan by 1 : mean time 2.75e-07 s, stdev 3.08e-09 s, distance from overall median 88.8 stdevs
+  double multiplication of nan by 1e-320 : mean time 2.75e-07 s, stdev 3.15e-09 s, distance from overall median 86.6 stdevs
+  double multiplication of nan by 4.94e-324 : mean time 2.76e-07 s, stdev 3.21e-09 s, distance from overall median 85.3 stdevs
+  double multiplication of nan by -1e-320 : mean time 2.75e-07 s, stdev 3.23e-09 s, distance from overall median 84.6 stdevs
+  double multiplication of nan by 1e-306 : mean time 2.74e-07 s, stdev 3.25e-09 s, distance from overall median 84 stdevs
+  double multiplication of nan by 0.00391 : mean time 2.74e-07 s, stdev 3.27e-09 s, distance from overall median 83.3 stdevs
+  double multiplication of -1e+16 by nan : mean time 2.78e-07 s, stdev 3.36e-09 s, distance from overall median 82.3 stdevs
+  double multiplication of nan by 0.0323 : mean time 2.74e-07 s, stdev 3.35e-09 s, distance from overall median 81.4 stdevs
+  double multiplication of nan by 2 : mean time 2.75e-07 s, stdev 3.36e-09 s, distance from overall median 81.3 stdevs
+  double multiplication of nan by -1e-310 : mean time 2.75e-07 s, stdev 3.4e-09 s, distance from overall median 80.5 stdevs
+  double multiplication of -1 by nan : mean time 2.78e-07 s, stdev 3.44e-09 s, distance from overall median 80.3 stdevs
+  double multiplication of nan by nan : mean time 2.75e-07 s, stdev 3.47e-09 s, distance from overall median 78.6 stdevs
+  double multiplication of nan by -0.00391 : mean time 2.74e-07 s, stdev 3.51e-09 s, distance from overall median 77.8 stdevs
+  double multiplication of nan by -1.68e+07 : mean time 2.75e-07 s, stdev 3.52e-09 s, distance from overall median 77.7 stdevs
+  double multiplication of nan by 3e-05 : mean time 2.74e-07 s, stdev 3.58e-09 s, distance from overall median 76 stdevs
+  double multiplication of 1.68e+07 by nan : mean time 2.77e-07 s, stdev 4.11e-09 s, distance from overall median 67 stdevs
+  the remaining 1023 timings are within 0.805 sigma of the overall median
+  alert #13: deviation of 193 sigma for double multiplication of -256 by nan
+
+double division
+  timing................................
+  overall median: 1.34e-08 s
+  double division of 0 by 4.94e-324 : mean time 1.35e-08 s, stdev 1.19e-10 s, distance from overall median 0.823 stdevs
+  double division of 0 by 2 : mean time 1.34e-08 s, stdev 3.25e-11 s, distance from overall median 0.723 stdevs
+  double division of 1 by 1e-306 : mean time 1.34e-08 s, stdev 3.46e-11 s, distance from overall median 0.675 stdevs
+  double division of 0 by -1e-310 : mean time 1.35e-08 s, stdev 9.69e-11 s, distance from overall median 0.638 stdevs
+  double division of -1e+16 by 1e-320 : mean time 1.34e-08 s, stdev 3.27e-11 s, distance from overall median 0.627 stdevs
+  double division of 256 by nan : mean time 1.35e-08 s, stdev 6.58e-11 s, distance from overall median 0.57 stdevs
+  double division of 0 by -1e-320 : mean time 1.35e-08 s, stdev 9.58e-11 s, distance from overall median 0.539 stdevs
+  double division of 0.0323 by 1e-306 : mean time 1.35e-08 s, stdev 5.06e-11 s, distance from overall median 0.53 stdevs
+  the remaining 1080 timings are within 0.513 sigma of the overall median
+
+double equality comparison
+  timing................................
+  overall median: 2.38e-09 s
+  double equality comparison of nan and 6.55e+04 : mean time 2.08e-09 s, stdev 2.33e-11 s, distance from overall median 13 stdevs
+  double equality comparison of nan and 256 : mean time 2.07e-09 s, stdev 2.39e-11 s, distance from overall median 12.7 stdevs
+  double equality comparison of nan and 1.68e+07 : mean time 2.08e-09 s, stdev 2.39e-11 s, distance from overall median 12.6 stdevs
+  double equality comparison of nan and -255 : mean time 2.08e-09 s, stdev 2.41e-11 s, distance from overall median 12.3 stdevs
+  double equality comparison of nan and 1e+300 : mean time 2.08e-09 s, stdev 2.45e-11 s, distance from overall median 12.1 stdevs
+  double equality comparison of nan and -1 : mean time 2.08e-09 s, stdev 2.61e-11 s, distance from overall median 11.4 stdevs
+  double equality comparison of nan and 255 : mean time 2.08e-09 s, stdev 2.66e-11 s, distance from overall median 11.3 stdevs
+  double equality comparison of nan and 4.94e-324 : mean time 2.08e-09 s, stdev 2.73e-11 s, distance from overall median 10.8 stdevs
+  double equality comparison of nan and nan : mean time 2.08e-09 s, stdev 2.96e-11 s, distance from overall median 9.98 stdevs
+  double equality comparison of nan and -255 : mean time 2.08e-09 s, stdev 3e-11 s, distance from overall median 9.94 stdevs
+  double equality comparison of nan and 2 : mean time 2.08e-09 s, stdev 3.04e-11 s, distance from overall median 9.72 stdevs
+  double equality comparison of nan and -0.00391 : mean time 2.09e-09 s, stdev 3.03e-11 s, distance from overall median 9.65 stdevs
+  double equality comparison of nan and -1.68e+07 : mean time 2.08e-09 s, stdev 3.06e-11 s, distance from overall median 9.59 stdevs
+  double equality comparison of nan and -1e-310 : mean time 2.08e-09 s, stdev 3.1e-11 s, distance from overall median 9.58 stdevs
+  double equality comparison of nan and 256 : mean time 2.08e-09 s, stdev 3.09e-11 s, distance from overall median 9.51 stdevs
+  double equality comparison of nan and inf : mean time 2.09e-09 s, stdev 3.08e-11 s, distance from overall median 9.48 stdevs
+  double equality comparison of nan and 0.0323 : mean time 2.08e-09 s, stdev 3.13e-11 s, distance from overall median 9.39 stdevs
+  double equality comparison of nan and 0.0323 : mean time 2.09e-09 s, stdev 3.08e-11 s, distance from overall median 9.39 stdevs
+  double equality comparison of nan and 255 : mean time 2.08e-09 s, stdev 3.2e-11 s, distance from overall median 9.31 stdevs
+  double equality comparison of nan and 0.5 : mean time 2.09e-09 s, stdev 3.13e-11 s, distance from overall median 9.27 stdevs
+  double equality comparison of nan and 1 : mean time 2.09e-09 s, stdev 3.1e-11 s, distance from overall median 9.24 stdevs
+  double equality comparison of nan and -256 : mean time 2.09e-09 s, stdev 3.18e-11 s, distance from overall median 9.16 stdevs
+  double equality comparison of nan and 1e-310 : mean time 2.09e-09 s, stdev 3.39e-11 s, distance from overall median 8.49 stdevs
+  double equality comparison of nan and 0.00391 : mean time 2.09e-09 s, stdev 3.42e-11 s, distance from overall median 8.3 stdevs
+  double equality comparison of nan and -256 : mean time 2.08e-09 s, stdev 3.65e-11 s, distance from overall median 8.18 stdevs
+  double equality comparison of nan and -1e-320 : mean time 2.09e-09 s, stdev 3.52e-11 s, distance from overall median 8.11 stdevs
+  double equality comparison of nan and -inf : mean time 2.08e-09 s, stdev 3.66e-11 s, distance from overall median 8.1 stdevs
+  double equality comparison of nan and -0.00391 : mean time 2.08e-09 s, stdev 3.65e-11 s, distance from overall median 8.03 stdevs
+  double equality comparison of nan and 1.68e+07 : mean time 2.09e-09 s, stdev 3.66e-11 s, distance from overall median 7.99 stdevs
+  double equality comparison of nan and 1e-320 : mean time 2.09e-09 s, stdev 3.69e-11 s, distance from overall median 7.88 stdevs
+  double equality comparison of nan and 0 : mean time 2.08e-09 s, stdev 3.82e-11 s, distance from overall median 7.83 stdevs
+  double equality comparison of nan and -1.68e+07 : mean time 2.09e-09 s, stdev 3.84e-11 s, distance from overall median 7.58 stdevs
+  double equality comparison of nan and 1e+16 : mean time 2.08e-09 s, stdev 3.95e-11 s, distance from overall median 7.57 stdevs
+  double equality comparison of nan and 0.00391 : mean time 2.08e-09 s, stdev 3.93e-11 s, distance from overall median 7.47 stdevs
+  double equality comparison of nan and 3e-05 : mean time 2.08e-09 s, stdev 3.95e-11 s, distance from overall median 7.42 stdevs
+  double equality comparison of nan and nan : mean time 2.09e-09 s, stdev 4.15e-11 s, distance from overall median 6.97 stdevs
+  double equality comparison of nan and -1e+16 : mean time 2.09e-09 s, stdev 4.21e-11 s, distance from overall median 6.86 stdevs
+  double equality comparison of nan and 1e-306 : mean time 2.09e-09 s, stdev 4.39e-11 s, distance from overall median 6.52 stdevs
+  double equality comparison of nan and 1e+16 : mean time 2.09e-09 s, stdev 4.62e-11 s, distance from overall median 6.3 stdevs
+  double equality comparison of nan and 1e-306 : mean time 2.09e-09 s, stdev 5.02e-11 s, distance from overall median 5.68 stdevs
+  double equality comparison of nan and 6.55e+04 : mean time 2.1e-09 s, stdev 5.01e-11 s, distance from overall median 5.63 stdevs
+  double equality comparison of nan and 2 : mean time 2.09e-09 s, stdev 5.32e-11 s, distance from overall median 5.35 stdevs
+  double equality comparison of nan and 1e-310 : mean time 2.1e-09 s, stdev 5.38e-11 s, distance from overall median 5.16 stdevs
+  double equality comparison of -1.68e+07 and nan : mean time 2.13e-09 s, stdev 4.98e-11 s, distance from overall median 5.07 stdevs
+  double equality comparison of nan and 1e-320 : mean time 2.1e-09 s, stdev 5.65e-11 s, distance from overall median 4.96 stdevs
+  double equality comparison of nan and -1.68e+07 : mean time 2.09e-09 s, stdev 5.76e-11 s, distance from overall median 4.96 stdevs
+  double equality comparison of nan and 1.68e+07 : mean time 2.09e-09 s, stdev 5.86e-11 s, distance from overall median 4.94 stdevs
+  double equality comparison of 1.68e+07 and nan : mean time 2.13e-09 s, stdev 5.05e-11 s, distance from overall median 4.85 stdevs
+  double equality comparison of nan and 4.94e-324 : mean time 2.12e-09 s, stdev 5.53e-11 s, distance from overall median 4.7 stdevs
+  double equality comparison of nan and 0.5 : mean time 2.09e-09 s, stdev 6.09e-11 s, distance from overall median 4.69 stdevs
+  double equality comparison of nan and 6.55e+04 : mean time 2.08e-09 s, stdev 6.7e-11 s, distance from overall median 4.4 stdevs
+  double equality comparison of nan and -1 : mean time 2.1e-09 s, stdev 6.42e-11 s, distance from overall median 4.38 stdevs
+  double equality comparison of nan and 1.68e+07 : mean time 2.09e-09 s, stdev 6.55e-11 s, distance from overall median 4.32 stdevs
+  double equality comparison of nan and nan : mean time 2.09e-09 s, stdev 6.8e-11 s, distance from overall median 4.3 stdevs
+  double equality comparison of nan and -1e-310 : mean time 2.1e-09 s, stdev 6.58e-11 s, distance from overall median 4.23 stdevs
+  double equality comparison of 2 and nan : mean time 2.13e-09 s, stdev 5.85e-11 s, distance from overall median 4.22 stdevs
+  double equality comparison of 0.5 and nan : mean time 2.15e-09 s, stdev 5.79e-11 s, distance from overall median 3.96 stdevs
+  double equality comparison of nan and -1e-320 : mean time 2.1e-09 s, stdev 7.09e-11 s, distance from overall median 3.96 stdevs
+  double equality comparison of -1e+16 and nan : mean time 2.13e-09 s, stdev 6.67e-11 s, distance from overall median 3.65 stdevs
+  double equality comparison of 3e-05 and nan : mean time 2.14e-09 s, stdev 6.62e-11 s, distance from overall median 3.59 stdevs
+  double equality comparison of nan and 0 : mean time 2.14e-09 s, stdev 6.73e-11 s, distance from overall median 3.56 stdevs
+  double equality comparison of 1e-320 and nan : mean time 2.13e-09 s, stdev 7.03e-11 s, distance from overall median 3.53 stdevs
+  double equality comparison of nan and 1 : mean time 2.09e-09 s, stdev 8.21e-11 s, distance from overall median 3.46 stdevs
+  double equality comparison of nan and nan : mean time 2.1e-09 s, stdev 8.18e-11 s, distance from overall median 3.42 stdevs
+  double equality comparison of -256 and nan : mean time 2.14e-09 s, stdev 7.09e-11 s, distance from overall median 3.41 stdevs
+  double equality comparison of nan and -1.68e+07 : mean time 2.1e-09 s, stdev 8.19e-11 s, distance from overall median 3.38 stdevs
+  double equality comparison of nan and inf : mean time 2.1e-09 s, stdev 8.38e-11 s, distance from overall median 3.34 stdevs
+  double equality comparison of nan and -inf : mean time 2.1e-09 s, stdev 8.46e-11 s, distance from overall median 3.29 stdevs
+  double equality comparison of nan and 6.55e+04 : mean time 2.1e-09 s, stdev 8.52e-11 s, distance from overall median 3.27 stdevs
+  double equality comparison of 1e-310 and nan : mean time 2.15e-09 s, stdev 7.07e-11 s, distance from overall median 3.25 stdevs
+  double equality comparison of -inf and nan : mean time 2.17e-09 s, stdev 6.72e-11 s, distance from overall median 3.09 stdevs
+  double equality comparison of 1.68e+07 and nan : mean time 2.14e-09 s, stdev 7.7e-11 s, distance from overall median 3.05 stdevs
+  double equality comparison of 1.68e+07 and 0 : mean time 2.66e-09 s, stdev 9.75e-11 s, distance from overall median 2.89 stdevs
+  double equality comparison of 0.00391 and nan : mean time 2.16e-09 s, stdev 7.63e-11 s, distance from overall median 2.86 stdevs
+  double equality comparison of 0.0323 and nan : mean time 2.14e-09 s, stdev 8.62e-11 s, distance from overall median 2.81 stdevs
+  double equality comparison of 256 and nan : mean time 2.15e-09 s, stdev 8.55e-11 s, distance from overall median 2.63 stdevs
+  double equality comparison of 1e-310 and nan : mean time 2.21e-09 s, stdev 6.29e-11 s, distance from overall median 2.62 stdevs
+  double equality comparison of 1.68e+07 and nan : mean time 2.21e-09 s, stdev 6.44e-11 s, distance from overall median 2.59 stdevs
+  double equality comparison of -256 and nan : mean time 2.21e-09 s, stdev 6.9e-11 s, distance from overall median 2.5 stdevs
+  double equality comparison of -1e+16 and nan : mean time 2.23e-09 s, stdev 6.17e-11 s, distance from overall median 2.42 stdevs
+  double equality comparison of 1.68e+07 and nan : mean time 2.2e-09 s, stdev 7.73e-11 s, distance from overall median 2.26 stdevs
+  double equality comparison of 0.0323 and nan : mean time 2.23e-09 s, stdev 6.97e-11 s, distance from overall median 2.17 stdevs
+  double equality comparison of -1e-310 and nan : mean time 2.16e-09 s, stdev 9.89e-11 s, distance from overall median 2.17 stdevs
+  double equality comparison of -1 and nan : mean time 2.15e-09 s, stdev 1.06e-10 s, distance from overall median 2.11 stdevs
+  double equality comparison of 1e+16 and 0 : mean time 2.64e-09 s, stdev 1.25e-10 s, distance from overall median 2.09 stdevs
+  double equality comparison of 6.55e+04 and 0 : mean time 2.64e-09 s, stdev 1.27e-10 s, distance from overall median 2.06 stdevs
+  double equality comparison of -1e-310 and nan : mean time 2.24e-09 s, stdev 6.65e-11 s, distance from overall median 2.06 stdevs
+  double equality comparison of -0.00391 and nan : mean time 2.17e-09 s, stdev 1.06e-10 s, distance from overall median 2 stdevs
+  double equality comparison of 0.5 and nan : mean time 2.22e-09 s, stdev 8.08e-11 s, distance from overall median 2 stdevs
+  double equality comparison of nan and 1e-306 : mean time 2.11e-09 s, stdev 1.36e-10 s, distance from overall median 1.98 stdevs
+  double equality comparison of -1.68e+07 and nan : mean time 2.23e-09 s, stdev 7.61e-11 s, distance from overall median 1.98 stdevs
+  double equality comparison of nan and 3e-05 : mean time 2.11e-09 s, stdev 1.36e-10 s, distance from overall median 1.96 stdevs
+  double equality comparison of 2 and 0 : mean time 2.61e-09 s, stdev 1.26e-10 s, distance from overall median 1.87 stdevs
+  double equality comparison of 1e-306 and 0 : mean time 2.64e-09 s, stdev 1.46e-10 s, distance from overall median 1.82 stdevs
+  double equality comparison of nan and 1e+300 : mean time 2.12e-09 s, stdev 1.45e-10 s, distance from overall median 1.79 stdevs
+  double equality comparison of nan and -1e+16 : mean time 2.1e-09 s, stdev 1.55e-10 s, distance from overall median 1.78 stdevs
+  double equality comparison of 4.94e-324 and nan : mean time 2.22e-09 s, stdev 8.82e-11 s, distance from overall median 1.75 stdevs
+  double equality comparison of 1 and nan : mean time 2.17e-09 s, stdev 1.19e-10 s, distance from overall median 1.73 stdevs
+  double equality comparison of -1e-320 and nan : mean time 2.17e-09 s, stdev 1.23e-10 s, distance from overall median 1.72 stdevs
+  double equality comparison of 1e+16 and nan : mean time 2.17e-09 s, stdev 1.24e-10 s, distance from overall median 1.71 stdevs
+  double equality comparison of -1.68e+07 and 0 : mean time 2.59e-09 s, stdev 1.27e-10 s, distance from overall median 1.68 stdevs
+  double equality comparison of -255 and nan : mean time 2.18e-09 s, stdev 1.16e-10 s, distance from overall median 1.68 stdevs
+  double equality comparison of 6.55e+04 and 0 : mean time 2.6e-09 s, stdev 1.31e-10 s, distance from overall median 1.66 stdevs
+  double equality comparison of 1e+300 and 0 : mean time 2.59e-09 s, stdev 1.31e-10 s, distance from overall median 1.66 stdevs
+  the remaining 984 timings are within 1.59 sigma of the overall median
+
+std::max<double>
+  timing................................
+  overall median: 3.48e-09 s
+  std::max<double>(1e-310, -256) : mean time 3.47e-09 s, stdev 1.08e-11 s, distance from overall median 0.874 stdevs
+  std::max<double>(0, 0) : mean time 3.5e-09 s, stdev 2.25e-11 s, distance from overall median 0.744 stdevs
+  std::max<double>(1.68e+07, 1.68e+07) : mean time 3.49e-09 s, stdev 1.96e-11 s, distance from overall median 0.619 stdevs
+  std::max<double>(-1e+16, -1.68e+07) : mean time 3.49e-09 s, stdev 2.74e-11 s, distance from overall median 0.523 stdevs
+  std::max<double>(1.68e+07, -1e-320) : mean time 3.49e-09 s, stdev 2.79e-11 s, distance from overall median 0.522 stdevs
+  std::max<double>(255, 1e-310) : mean time 3.49e-09 s, stdev 1.61e-11 s, distance from overall median 0.508 stdevs
+  std::max<double>(4.94e-324, 255) : mean time 3.49e-09 s, stdev 2.24e-11 s, distance from overall median 0.507 stdevs
+  std::max<double>(-1, inf) : mean time 3.49e-09 s, stdev 2.9e-11 s, distance from overall median 0.498 stdevs
+  the remaining 1080 timings are within 0.497 sigma of the overall median
+
+conversion from int8 to float
+  timing................................
+  overall median: 1.9e-09 s
+  conversion from int8 to float of -117 : mean time 1.88e-09 s, stdev 7.52e-11 s, distance from overall median 0.238 stdevs
+  conversion from int8 to float of -128 : mean time 1.88e-09 s, stdev 8.49e-11 s, distance from overall median 0.216 stdevs
+  conversion from int8 to float of 11 : mean time 1.93e-09 s, stdev 1.47e-10 s, distance from overall median 0.208 stdevs
+  conversion from int8 to float of -1 : mean time 1.93e-09 s, stdev 1.35e-10 s, distance from overall median 0.205 stdevs
+  conversion from int8 to float of 2 : mean time 1.92e-09 s, stdev 1.01e-10 s, distance from overall median 0.197 stdevs
+  conversion from int8 to float of 127 : mean time 1.93e-09 s, stdev 1.59e-10 s, distance from overall median 0.176 stdevs
+  conversion from int8 to float of 3 : mean time 1.92e-09 s, stdev 1.27e-10 s, distance from overall median 0.173 stdevs
+  conversion from int8 to float of 116 : mean time 1.93e-09 s, stdev 1.4e-10 s, distance from overall median 0.169 stdevs
+  the remaining 4 timings are within 0.149 sigma of the overall median
+
+conversion from int8 to double
+  timing................................
+  overall median: 2.84e-09 s
+  conversion from int8 to double of 116 : mean time 2.66e-09 s, stdev 2.08e-10 s, distance from overall median 0.884 stdevs
+  conversion from int8 to double of 127 : mean time 2.69e-09 s, stdev 2.23e-10 s, distance from overall median 0.697 stdevs
+  conversion from int8 to double of 3 : mean time 2.73e-09 s, stdev 1.91e-10 s, distance from overall median 0.606 stdevs
+  conversion from int8 to double of -2 : mean time 2.74e-09 s, stdev 1.79e-10 s, distance from overall median 0.601 stdevs
+  conversion from int8 to double of 11 : mean time 2.75e-09 s, stdev 1.75e-10 s, distance from overall median 0.556 stdevs
+  conversion from int8 to double of -1 : mean time 2.77e-09 s, stdev 1.43e-10 s, distance from overall median 0.547 stdevs
+  conversion from int8 to double of -3 : mean time 2.74e-09 s, stdev 2e-10 s, distance from overall median 0.543 stdevs
+  conversion from int8 to double of 2 : mean time 2.75e-09 s, stdev 1.92e-10 s, distance from overall median 0.512 stdevs
+  the remaining 4 timings are within 0.397 sigma of the overall median
+
+int8 addition
+  timing................................
+  overall median: 1.26e-09 s
+  int8 addition of 116 and -1 : mean time 1.39e-09 s, stdev 2.17e-10 s, distance from overall median 0.611 stdevs
+  int8 addition of -11 and 11 : mean time 1.36e-09 s, stdev 1.79e-10 s, distance from overall median 0.595 stdevs
+  int8 addition of 0 and 127 : mean time 1.37e-09 s, stdev 1.99e-10 s, distance from overall median 0.585 stdevs
+  int8 addition of -11 and 3 : mean time 1.35e-09 s, stdev 1.74e-10 s, distance from overall median 0.568 stdevs
+  int8 addition of -3 and -128 : mean time 1.37e-09 s, stdev 2.1e-10 s, distance from overall median 0.554 stdevs
+  int8 addition of 116 and -2 : mean time 1.37e-09 s, stdev 2.12e-10 s, distance from overall median 0.553 stdevs
+  int8 addition of -11 and -128 : mean time 1.35e-09 s, stdev 1.69e-10 s, distance from overall median 0.549 stdevs
+  int8 addition of -11 and 127 : mean time 1.36e-09 s, stdev 1.96e-10 s, distance from overall median 0.54 stdevs
+  the remaining 160 timings are within 0.526 sigma of the overall median
+
+int8 subtraction
+  timing................................
+  overall median: 1.26e-09 s
+  int8 subtraction of 0 from -128 : mean time 1.32e-09 s, stdev 1.01e-10 s, distance from overall median 0.615 stdevs
+  int8 subtraction of 116 from 127 : mean time 1.39e-09 s, stdev 2.16e-10 s, distance from overall median 0.608 stdevs
+  int8 subtraction of 11 from 127 : mean time 1.36e-09 s, stdev 1.8e-10 s, distance from overall median 0.602 stdevs
+  int8 subtraction of 3 from -3 : mean time 1.37e-09 s, stdev 1.88e-10 s, distance from overall median 0.594 stdevs
+  int8 subtraction of 2 from -3 : mean time 1.36e-09 s, stdev 1.84e-10 s, distance from overall median 0.562 stdevs
+  int8 subtraction of 11 from -3 : mean time 1.35e-09 s, stdev 1.76e-10 s, distance from overall median 0.55 stdevs
+  int8 subtraction of 116 from -1 : mean time 1.32e-09 s, stdev 1.16e-10 s, distance from overall median 0.547 stdevs
+  int8 subtraction of -128 from 1 : mean time 1.37e-09 s, stdev 2.21e-10 s, distance from overall median 0.526 stdevs
+  the remaining 160 timings are within 0.514 sigma of the overall median
+
+int8 multiplication
+  timing................................
+  overall median: 1.42e-09 s
+  int8 multiplication of 3 by -3 : mean time 1.51e-09 s, stdev 1.49e-10 s, distance from overall median 0.636 stdevs
+  int8 multiplication of 2 by 116 : mean time 1.51e-09 s, stdev 1.49e-10 s, distance from overall median 0.613 stdevs
+  int8 multiplication of 1 by -2 : mean time 1.52e-09 s, stdev 1.73e-10 s, distance from overall median 0.591 stdevs
+  int8 multiplication of 3 by -117 : mean time 1.49e-09 s, stdev 1.17e-10 s, distance from overall median 0.576 stdevs
+  int8 multiplication of -2 by -117 : mean time 1.49e-09 s, stdev 1.34e-10 s, distance from overall median 0.563 stdevs
+  int8 multiplication of 2 by 127 : mean time 1.51e-09 s, stdev 1.58e-10 s, distance from overall median 0.561 stdevs
+  int8 multiplication of 3 by -11 : mean time 1.5e-09 s, stdev 1.5e-10 s, distance from overall median 0.561 stdevs
+  int8 multiplication of 1 by -1 : mean time 1.55e-09 s, stdev 2.3e-10 s, distance from overall median 0.56 stdevs
+  the remaining 160 timings are within 0.554 sigma of the overall median
+
+int8 division
+  timing................................
+  overall median: 1.29e-08 s
+  int8 division of -128 by -128 : mean time 1.3e-08 s, stdev 8.43e-11 s, distance from overall median 0.702 stdevs
+  int8 division of 0 by -117 : mean time 1.29e-08 s, stdev 6.31e-11 s, distance from overall median 0.432 stdevs
+  int8 division of 1 by 1 : mean time 1.29e-08 s, stdev 1.21e-10 s, distance from overall median 0.416 stdevs
+  int8 division of -11 by 11 : mean time 1.29e-08 s, stdev 6.27e-11 s, distance from overall median 0.412 stdevs
+  int8 division of -117 by -11 : mean time 1.29e-08 s, stdev 7.58e-11 s, distance from overall median 0.382 stdevs
+  int8 division of 116 by 1 : mean time 1.29e-08 s, stdev 6.64e-11 s, distance from overall median 0.375 stdevs
+  int8 division of 3 by -3 : mean time 1.29e-08 s, stdev 5.35e-11 s, distance from overall median 0.371 stdevs
+  int8 division of -3 by -117 : mean time 1.29e-08 s, stdev 1.21e-10 s, distance from overall median 0.37 stdevs
+  the remaining 160 timings are within 0.346 sigma of the overall median
+
+int8 equality comparison
+  timing................................
+  overall median: 1.89e-09 s
+  int8 equality comparison of 1 and -2 : mean time 1.88e-09 s, stdev 1.09e-11 s, distance from overall median 0.653 stdevs
+  int8 equality comparison of 127 and 116 : mean time 1.89e-09 s, stdev 1.66e-11 s, distance from overall median 0.444 stdevs
+  int8 equality comparison of 1 and -128 : mean time 1.88e-09 s, stdev 1.31e-11 s, distance from overall median 0.428 stdevs
+  int8 equality comparison of -128 and -3 : mean time 1.9e-09 s, stdev 1.99e-11 s, distance from overall median 0.41 stdevs
+  int8 equality comparison of 3 and -2 : mean time 1.9e-09 s, stdev 2.03e-11 s, distance from overall median 0.407 stdevs
+  int8 equality comparison of -11 and 2 : mean time 1.89e-09 s, stdev 1.88e-11 s, distance from overall median 0.381 stdevs
+  int8 equality comparison of -3 and 11 : mean time 1.9e-09 s, stdev 2.15e-11 s, distance from overall median 0.371 stdevs
+  int8 equality comparison of 127 and 1 : mean time 1.9e-09 s, stdev 3.13e-11 s, distance from overall median 0.367 stdevs
+  the remaining 160 timings are within 0.349 sigma of the overall median
+
+std::max<int8>
+  timing................................
+  overall median: 2.84e-09 s
+  std::max<int8>(0, -3) : mean time 2.57e-09 s, stdev 2.53e-10 s, distance from overall median 1.1 stdevs
+  std::max<int8>(0, -11) : mean time 2.61e-09 s, stdev 2.48e-10 s, distance from overall median 0.944 stdevs
+  std::max<int8>(-11, 127) : mean time 2.62e-09 s, stdev 2.4e-10 s, distance from overall median 0.921 stdevs
+  std::max<int8>(1, 11) : mean time 2.64e-09 s, stdev 2.21e-10 s, distance from overall median 0.91 stdevs
+  std::max<int8>(0, -2) : mean time 2.63e-09 s, stdev 2.49e-10 s, distance from overall median 0.871 stdevs
+  std::max<int8>(1, 116) : mean time 2.64e-09 s, stdev 2.44e-10 s, distance from overall median 0.85 stdevs
+  std::max<int8>(1, 127) : mean time 2.64e-09 s, stdev 2.39e-10 s, distance from overall median 0.839 stdevs
+  std::max<int8>(-117, 2) : mean time 2.69e-09 s, stdev 1.87e-10 s, distance from overall median 0.809 stdevs
+  the remaining 160 timings are within 0.797 sigma of the overall median
+
+conversion from int16 to float
+  timing................................
+  overall median: 2.18e-09 s
+  conversion from int16 to float of 32756 : mean time 2.25e-09 s, stdev 1.49e-10 s, distance from overall median 0.466 stdevs
+  conversion from int16 to float of 32767 : mean time 2.23e-09 s, stdev 1.35e-10 s, distance from overall median 0.424 stdevs
+  conversion from int16 to float of 0 : mean time 2.23e-09 s, stdev 1.38e-10 s, distance from overall median 0.408 stdevs
+  conversion from int16 to float of -32768 : mean time 2.14e-09 s, stdev 9.87e-11 s, distance from overall median 0.402 stdevs
+  conversion from int16 to float of 1 : mean time 2.24e-09 s, stdev 1.52e-10 s, distance from overall median 0.397 stdevs
+  conversion from int16 to float of 11 : mean time 2.22e-09 s, stdev 1.31e-10 s, distance from overall median 0.342 stdevs
+  conversion from int16 to float of -2 : mean time 2.23e-09 s, stdev 1.46e-10 s, distance from overall median 0.339 stdevs
+  conversion from int16 to float of 2 : mean time 2.22e-09 s, stdev 1.4e-10 s, distance from overall median 0.285 stdevs
+  the remaining 6 timings are within 0.238 sigma of the overall median
+
+conversion from int16 to double
+  timing................................
+  overall median: 3.01e-09 s
+  conversion from int16 to double of 0 : mean time 2.95e-09 s, stdev 9.12e-11 s, distance from overall median 0.67 stdevs
+  conversion from int16 to double of -2 : mean time 2.95e-09 s, stdev 1.04e-10 s, distance from overall median 0.643 stdevs
+  conversion from int16 to double of -3 : mean time 2.96e-09 s, stdev 9.39e-11 s, distance from overall median 0.63 stdevs
+  conversion from int16 to double of -1111 : mean time 2.95e-09 s, stdev 1.13e-10 s, distance from overall median 0.585 stdevs
+  conversion from int16 to double of 1 : mean time 2.96e-09 s, stdev 1.13e-10 s, distance from overall median 0.477 stdevs
+  conversion from int16 to double of 3 : mean time 2.96e-09 s, stdev 1.07e-10 s, distance from overall median 0.471 stdevs
+  conversion from int16 to double of 32767 : mean time 2.97e-09 s, stdev 9.67e-11 s, distance from overall median 0.468 stdevs
+  conversion from int16 to double of -32757 : mean time 2.98e-09 s, stdev 8.1e-11 s, distance from overall median 0.467 stdevs
+  the remaining 6 timings are within 0.439 sigma of the overall median
+
+int16 addition
+  timing................................
+  overall median: 1.25e-09 s
+  int16 addition of 2 and -1111 : mean time 1.43e-09 s, stdev 2.43e-10 s, distance from overall median 0.747 stdevs
+  int16 addition of 2 and -32757 : mean time 1.41e-09 s, stdev 2.44e-10 s, distance from overall median 0.668 stdevs
+  int16 addition of -1111 and -32768 : mean time 1.4e-09 s, stdev 2.3e-10 s, distance from overall median 0.643 stdevs
+  int16 addition of -32757 and 11 : mean time 1.38e-09 s, stdev 2.14e-10 s, distance from overall median 0.59 stdevs
+  int16 addition of 0 and 1 : mean time 1.34e-09 s, stdev 1.5e-10 s, distance from overall median 0.59 stdevs
+  int16 addition of -32757 and 0 : mean time 1.37e-09 s, stdev 2.08e-10 s, distance from overall median 0.584 stdevs
+  int16 addition of -32757 and 3 : mean time 1.38e-09 s, stdev 2.21e-10 s, distance from overall median 0.566 stdevs
+  int16 addition of -32757 and 1 : mean time 1.37e-09 s, stdev 2.16e-10 s, distance from overall median 0.551 stdevs
+  the remaining 216 timings are within 0.537 sigma of the overall median
+
+int16 subtraction
+  timing................................
+  overall median: 1.27e-09 s
+  int16 subtraction of -3 from -3 : mean time 1.31e-09 s, stdev 5.51e-11 s, distance from overall median 0.674 stdevs
+  int16 subtraction of -3 from -11 : mean time 1.31e-09 s, stdev 6.72e-11 s, distance from overall median 0.628 stdevs
+  int16 subtraction of 11 from 1111 : mean time 1.36e-09 s, stdev 1.48e-10 s, distance from overall median 0.615 stdevs
+  int16 subtraction of 32756 from 1111 : mean time 1.35e-09 s, stdev 1.43e-10 s, distance from overall median 0.604 stdevs
+  int16 subtraction of 1111 from 1111 : mean time 1.35e-09 s, stdev 1.38e-10 s, distance from overall median 0.57 stdevs
+  int16 subtraction of -1 from 11 : mean time 1.32e-09 s, stdev 9.13e-11 s, distance from overall median 0.566 stdevs
+  int16 subtraction of 0 from 2 : mean time 1.33e-09 s, stdev 1.19e-10 s, distance from overall median 0.556 stdevs
+  int16 subtraction of 0 from 0 : mean time 1.34e-09 s, stdev 1.26e-10 s, distance from overall median 0.552 stdevs
+  the remaining 216 timings are within 0.541 sigma of the overall median
+
+int16 multiplication
+  timing................................
+  overall median: 1.42e-09 s
+  int16 multiplication of -32768 by -2 : mean time 1.51e-09 s, stdev 1.47e-10 s, distance from overall median 0.596 stdevs
+  int16 multiplication of -32768 by 3 : mean time 1.49e-09 s, stdev 1.3e-10 s, distance from overall median 0.546 stdevs
+  int16 multiplication of 32756 by 0 : mean time 1.46e-09 s, stdev 8.33e-11 s, distance from overall median 0.542 stdevs
+  int16 multiplication of 3 by -3 : mean time 1.48e-09 s, stdev 1.04e-10 s, distance from overall median 0.542 stdevs
+  int16 multiplication of -32768 by -3 : mean time 1.49e-09 s, stdev 1.38e-10 s, distance from overall median 0.538 stdevs
+  int16 multiplication of 32756 by 1 : mean time 1.46e-09 s, stdev 8.79e-11 s, distance from overall median 0.519 stdevs
+  int16 multiplication of -11 by 3 : mean time 1.49e-09 s, stdev 1.35e-10 s, distance from overall median 0.518 stdevs
+  int16 multiplication of -32768 by 11 : mean time 1.48e-09 s, stdev 1.12e-10 s, distance from overall median 0.516 stdevs
+  the remaining 216 timings are within 0.507 sigma of the overall median
+
+int16 division
+  timing................................
+  overall median: 1.28e-08 s
+  int16 division of 1111 by 2 : mean time 1.29e-08 s, stdev 9.99e-11 s, distance from overall median 0.553 stdevs
+  int16 division of 32767 by 1 : mean time 1.29e-08 s, stdev 1.33e-10 s, distance from overall median 0.541 stdevs
+  int16 division of -2 by -3 : mean time 1.29e-08 s, stdev 9.56e-11 s, distance from overall median 0.533 stdevs
+  int16 division of 1 by 2 : mean time 1.28e-08 s, stdev 6.99e-11 s, distance from overall median 0.489 stdevs
+  int16 division of 11 by 11 : mean time 1.28e-08 s, stdev 6.85e-11 s, distance from overall median 0.486 stdevs
+  int16 division of 11 by 32756 : mean time 1.29e-08 s, stdev 1.8e-10 s, distance from overall median 0.476 stdevs
+  int16 division of -32757 by 1 : mean time 1.29e-08 s, stdev 1.16e-10 s, distance from overall median 0.474 stdevs
+  int16 division of -2 by 1 : mean time 1.29e-08 s, stdev 8.82e-11 s, distance from overall median 0.47 stdevs
+  the remaining 216 timings are within 0.456 sigma of the overall median
+
+int16 equality comparison
+  timing................................
+  overall median: 2.07e-09 s
+  int16 equality comparison of 11 and -32768 : mean time 2.06e-09 s, stdev 2.68e-11 s, distance from overall median 0.526 stdevs
+  int16 equality comparison of 1111 and 32767 : mean time 2.06e-09 s, stdev 3.07e-11 s, distance from overall median 0.521 stdevs
+  int16 equality comparison of 1 and 2 : mean time 2.06e-09 s, stdev 2.88e-11 s, distance from overall median 0.507 stdevs
+  int16 equality comparison of 3 and 0 : mean time 2.08e-09 s, stdev 2.25e-11 s, distance from overall median 0.495 stdevs
+  int16 equality comparison of -32757 and 32767 : mean time 2.06e-09 s, stdev 3.15e-11 s, distance from overall median 0.487 stdevs
+  int16 equality comparison of 1111 and -1 : mean time 2.06e-09 s, stdev 3.33e-11 s, distance from overall median 0.46 stdevs
+  int16 equality comparison of 1 and -2 : mean time 2.06e-09 s, stdev 2.58e-11 s, distance from overall median 0.45 stdevs
+  int16 equality comparison of -2 and -1111 : mean time 2.06e-09 s, stdev 3.13e-11 s, distance from overall median 0.404 stdevs
+  the remaining 216 timings are within 0.386 sigma of the overall median
+
+std::max<int16>
+  timing................................
+  overall median: 2.85e-09 s
+  std::max<int16>(-32757, 3) : mean time 2.74e-09 s, stdev 1.74e-10 s, distance from overall median 0.614 stdevs
+  std::max<int16>(-32757, 11) : mean time 2.74e-09 s, stdev 1.92e-10 s, distance from overall median 0.569 stdevs
+  std::max<int16>(-32768, 11) : mean time 2.74e-09 s, stdev 2.07e-10 s, distance from overall median 0.529 stdevs
+  std::max<int16>(-32757, 2) : mean time 2.76e-09 s, stdev 1.84e-10 s, distance from overall median 0.52 stdevs
+  std::max<int16>(-32757, 1) : mean time 2.76e-09 s, stdev 1.76e-10 s, distance from overall median 0.519 stdevs
+  std::max<int16>(-32757, 1111) : mean time 2.75e-09 s, stdev 2.06e-10 s, distance from overall median 0.509 stdevs
+  std::max<int16>(-32768, 2) : mean time 2.77e-09 s, stdev 1.74e-10 s, distance from overall median 0.497 stdevs
+  std::max<int16>(-32768, 3) : mean time 2.76e-09 s, stdev 1.91e-10 s, distance from overall median 0.492 stdevs
+  the remaining 216 timings are within 0.466 sigma of the overall median
+
+conversion from int32 to float
+  timing................................
+  overall median: 1.8e-09 s
+  conversion from int32 to float of -2147483648 : mean time 1.82e-09 s, stdev 4.04e-11 s, distance from overall median 0.62 stdevs
+  conversion from int32 to float of -3 : mean time 1.82e-09 s, stdev 5e-11 s, distance from overall median 0.459 stdevs
+  conversion from int32 to float of 11 : mean time 1.82e-09 s, stdev 5.54e-11 s, distance from overall median 0.421 stdevs
+  conversion from int32 to float of -2 : mean time 1.82e-09 s, stdev 5.01e-11 s, distance from overall median 0.371 stdevs
+  conversion from int32 to float of -1111111 : mean time 1.79e-09 s, stdev 3.07e-11 s, distance from overall median 0.305 stdevs
+  conversion from int32 to float of 1111111 : mean time 1.81e-09 s, stdev 5.06e-11 s, distance from overall median 0.28 stdevs
+  conversion from int32 to float of -2147483637 : mean time 1.79e-09 s, stdev 3.29e-11 s, distance from overall median 0.269 stdevs
+  conversion from int32 to float of 1 : mean time 1.81e-09 s, stdev 5.81e-11 s, distance from overall median 0.225 stdevs
+  the remaining 6 timings are within 0.194 sigma of the overall median
+
+conversion from int32 to double
+  timing................................
+  overall median: 2.06e-09 s
+  conversion from int32 to double of 0 : mean time 2.12e-09 s, stdev 1.03e-10 s, distance from overall median 0.504 stdevs
+  conversion from int32 to double of -1 : mean time 2.11e-09 s, stdev 1.03e-10 s, distance from overall median 0.406 stdevs
+  conversion from int32 to double of 2147483647 : mean time 2.12e-09 s, stdev 1.41e-10 s, distance from overall median 0.383 stdevs
+  conversion from int32 to double of -2147483637 : mean time 2.08e-09 s, stdev 4.13e-11 s, distance from overall median 0.348 stdevs
+  conversion from int32 to double of 2147483636 : mean time 2.1e-09 s, stdev 1.18e-10 s, distance from overall median 0.339 stdevs
+  conversion from int32 to double of -2147483648 : mean time 2.08e-09 s, stdev 3.88e-11 s, distance from overall median 0.338 stdevs
+  conversion from int32 to double of 11 : mean time 2.1e-09 s, stdev 9.18e-11 s, distance from overall median 0.333 stdevs
+  conversion from int32 to double of 1111111 : mean time 2.09e-09 s, stdev 8.88e-11 s, distance from overall median 0.312 stdevs
+  the remaining 6 timings are within 0.243 sigma of the overall median
+
+int32 addition
+  timing................................
+  overall median: 1.25e-09 s
+  int32 addition of -2147483648 and -2147483648 : mean time 1.32e-09 s, stdev 7.64e-11 s, distance from overall median 0.833 stdevs
+  int32 addition of -1 and 2147483636 : mean time 1.33e-09 s, stdev 1.14e-10 s, distance from overall median 0.697 stdevs
+  int32 addition of -1 and 2147483647 : mean time 1.33e-09 s, stdev 1.11e-10 s, distance from overall median 0.669 stdevs
+  int32 addition of 2147483636 and -2147483648 : mean time 1.33e-09 s, stdev 1.27e-10 s, distance from overall median 0.632 stdevs
+  int32 addition of -1 and 1111111 : mean time 1.32e-09 s, stdev 9.82e-11 s, distance from overall median 0.628 stdevs
+  int32 addition of -1 and -2 : mean time 1.37e-09 s, stdev 1.85e-10 s, distance from overall median 0.613 stdevs
+  int32 addition of -2147483637 and 2 : mean time 1.33e-09 s, stdev 1.28e-10 s, distance from overall median 0.606 stdevs
+  int32 addition of -3 and -1111111 : mean time 1.31e-09 s, stdev 8.66e-11 s, distance from overall median 0.604 stdevs
+  the remaining 216 timings are within 0.593 sigma of the overall median
+
+int32 subtraction
+  timing................................
+  overall median: 1.24e-09 s
+  int32 subtraction of -2147483648 from -2147483648 : mean time 1.26e-09 s, stdev 3.02e-11 s, distance from overall median 0.786 stdevs
+  int32 subtraction of 0 from 2 : mean time 1.29e-09 s, stdev 6.8e-11 s, distance from overall median 0.745 stdevs
+  int32 subtraction of 1 from 2 : mean time 1.29e-09 s, stdev 6.87e-11 s, distance from overall median 0.681 stdevs
+  int32 subtraction of -1 from 2 : mean time 1.31e-09 s, stdev 1.03e-10 s, distance from overall median 0.66 stdevs
+  int32 subtraction of 2 from 2147483636 : mean time 1.27e-09 s, stdev 5.67e-11 s, distance from overall median 0.636 stdevs
+  int32 subtraction of 2147483636 from 1 : mean time 1.27e-09 s, stdev 5.28e-11 s, distance from overall median 0.62 stdevs
+  int32 subtraction of -2147483637 from -11 : mean time 1.27e-09 s, stdev 5.72e-11 s, distance from overall median 0.614 stdevs
+  int32 subtraction of 11 from 1 : mean time 1.28e-09 s, stdev 7.86e-11 s, distance from overall median 0.579 stdevs
+  the remaining 216 timings are within 0.566 sigma of the overall median
+
+int32 multiplication
+  timing................................
+  overall median: 1.4e-09 s
+  int32 multiplication of -2147483648 by -2147483648 : mean time 1.41e-09 s, stdev 1.24e-11 s, distance from overall median 0.686 stdevs
+  int32 multiplication of -2 by 2147483636 : mean time 1.43e-09 s, stdev 4.78e-11 s, distance from overall median 0.584 stdevs
+  int32 multiplication of -2 by 1111111 : mean time 1.43e-09 s, stdev 4.52e-11 s, distance from overall median 0.579 stdevs
+  int32 multiplication of -1111111 by 1 : mean time 1.43e-09 s, stdev 3.85e-11 s, distance from overall median 0.577 stdevs
+  int32 multiplication of -2 by 2147483647 : mean time 1.43e-09 s, stdev 4.39e-11 s, distance from overall median 0.577 stdevs
+  int32 multiplication of -1111111 by 0 : mean time 1.43e-09 s, stdev 4.49e-11 s, distance from overall median 0.537 stdevs
+  int32 multiplication of -1111111 by 2 : mean time 1.43e-09 s, stdev 3.9e-11 s, distance from overall median 0.526 stdevs
+  int32 multiplication of -1 by -11 : mean time 1.43e-09 s, stdev 4.61e-11 s, distance from overall median 0.524 stdevs
+  the remaining 216 timings are within 0.503 sigma of the overall median
+
+int32 division
+  timing................................
+  overall median: 1.19e-08 s
+  int32 division of -2147483648 by -2147483648 : mean time 1.2e-08 s, stdev 1.04e-10 s, distance from overall median 0.56 stdevs
+  int32 division of -1 by -1111111 : mean time 1.2e-08 s, stdev 1.02e-10 s, distance from overall median 0.509 stdevs
+  int32 division of -1 by -3 : mean time 1.2e-08 s, stdev 1.25e-10 s, distance from overall median 0.494 stdevs
+  int32 division of -1 by -2147483637 : mean time 1.2e-08 s, stdev 1.04e-10 s, distance from overall median 0.49 stdevs
+  int32 division of -1 by 1 : mean time 1.2e-08 s, stdev 1.09e-10 s, distance from overall median 0.474 stdevs
+  int32 division of -1 by 1 : mean time 1.2e-08 s, stdev 9.11e-11 s, distance from overall median 0.471 stdevs
+  int32 division of -1111111 by -1111111 : mean time 1.2e-08 s, stdev 1.38e-10 s, distance from overall median 0.456 stdevs
+  int32 division of -1111111 by -2147483648 : mean time 1.2e-08 s, stdev 1.52e-10 s, distance from overall median 0.438 stdevs
+  the remaining 216 timings are within 0.431 sigma of the overall median
+
+int32 equality comparison
+  timing................................
+  overall median: 2.07e-09 s
+  int32 equality comparison of 1 and -1111111 : mean time 2.05e-09 s, stdev 3.26e-11 s, distance from overall median 0.544 stdevs
+  int32 equality comparison of -1111111 and -11 : mean time 2.08e-09 s, stdev 2.5e-11 s, distance from overall median 0.454 stdevs
+  int32 equality comparison of 2 and -11 : mean time 2.08e-09 s, stdev 2.22e-11 s, distance from overall median 0.448 stdevs
+  int32 equality comparison of -3 and -2 : mean time 2.05e-09 s, stdev 2.73e-11 s, distance from overall median 0.419 stdevs
+  int32 equality comparison of -1 and -3 : mean time 2.05e-09 s, stdev 3.08e-11 s, distance from overall median 0.407 stdevs
+  int32 equality comparison of 3 and -11 : mean time 2.05e-09 s, stdev 3.05e-11 s, distance from overall median 0.393 stdevs
+  int32 equality comparison of -11 and -2147483648 : mean time 2.05e-09 s, stdev 2.62e-11 s, distance from overall median 0.39 stdevs
+  int32 equality comparison of 11 and -3 : mean time 2.05e-09 s, stdev 2.84e-11 s, distance from overall median 0.386 stdevs
+  the remaining 216 timings are within 0.374 sigma of the overall median
+
+std::max<int32>
+  timing................................
+  overall median: 2.84e-09 s
+  std::max<int32>(-2, -3) : mean time 2.56e-09 s, stdev 2.49e-10 s, distance from overall median 1.13 stdevs
+  std::max<int32>(-2, -2) : mean time 2.59e-09 s, stdev 2.45e-10 s, distance from overall median 1.04 stdevs
+  std::max<int32>(-2, -11) : mean time 2.59e-09 s, stdev 2.6e-10 s, distance from overall median 0.954 stdevs
+  std::max<int32>(-2, 1) : mean time 2.6e-09 s, stdev 2.52e-10 s, distance from overall median 0.95 stdevs
+  std::max<int32>(-2, 0) : mean time 2.62e-09 s, stdev 2.34e-10 s, distance from overall median 0.948 stdevs
+  std::max<int32>(-2147483637, -2) : mean time 2.61e-09 s, stdev 2.48e-10 s, distance from overall median 0.947 stdevs
+  std::max<int32>(-2, -1111111) : mean time 2.6e-09 s, stdev 2.55e-10 s, distance from overall median 0.94 stdevs
+  std::max<int32>(-2, 3) : mean time 2.61e-09 s, stdev 2.57e-10 s, distance from overall median 0.901 stdevs
+  the remaining 216 timings are within 0.893 sigma of the overall median
+
+conversion from int64 to float
+  timing................................
+  overall median: 2.12e-08 s
+  conversion from int64 to float of 0 : mean time 2.09e-08 s, stdev 5.73e-10 s, distance from overall median 0.424 stdevs
+  conversion from int64 to float of -9223372036854775797 : mean time 2.1e-08 s, stdev 4.73e-10 s, distance from overall median 0.376 stdevs
+  conversion from int64 to float of 9223372036854775796 : mean time 2.1e-08 s, stdev 3.69e-10 s, distance from overall median 0.358 stdevs
+  conversion from int64 to float of 1 : mean time 2.1e-08 s, stdev 5.39e-10 s, distance from overall median 0.311 stdevs
+  conversion from int64 to float of -2 : mean time 2.1e-08 s, stdev 4.92e-10 s, distance from overall median 0.269 stdevs
+  conversion from int64 to float of 3 : mean time 2.11e-08 s, stdev 4.27e-10 s, distance from overall median 0.233 stdevs
+  conversion from int64 to float of -1111111111111 : mean time 2.11e-08 s, stdev 3.71e-10 s, distance from overall median 0.23 stdevs
+  conversion from int64 to float of -1 : mean time 2.1e-08 s, stdev 4.84e-10 s, distance from overall median 0.214 stdevs
+  the remaining 8 timings are within 0.189 sigma of the overall median
+
+conversion from int64 to double
+  timing................................
+  overall median: 2.11e-08 s
+  conversion from int64 to double of -11 : mean time 2.07e-08 s, stdev 5.09e-10 s, distance from overall median 0.787 stdevs
+  conversion from int64 to double of 9223372036854775807 : mean time 2.08e-08 s, stdev 5.01e-10 s, distance from overall median 0.654 stdevs
+  conversion from int64 to double of -3 : mean time 2.08e-08 s, stdev 5.69e-10 s, distance from overall median 0.574 stdevs
+  conversion from int64 to double of -2 : mean time 2.08e-08 s, stdev 5.28e-10 s, distance from overall median 0.573 stdevs
+  conversion from int64 to double of -1 : mean time 2.08e-08 s, stdev 5.14e-10 s, distance from overall median 0.557 stdevs
+  conversion from int64 to double of -9223372036854775808 : mean time 2.12e-08 s, stdev 2.14e-10 s, distance from overall median 0.532 stdevs
+  conversion from int64 to double of 0 : mean time 2.09e-08 s, stdev 3.93e-10 s, distance from overall median 0.515 stdevs
+  conversion from int64 to double of 3 : mean time 2.09e-08 s, stdev 4.06e-10 s, distance from overall median 0.505 stdevs
+  the remaining 8 timings are within 0.429 sigma of the overall median
+
+int64 addition
+  timing................................
+  overall median: 3.85e-09 s
+  int64 addition of -3 and -1 : mean time 3.53e-09 s, stdev 3.26e-10 s, distance from overall median 0.987 stdevs
+  int64 addition of -3 and -2 : mean time 3.52e-09 s, stdev 3.51e-10 s, distance from overall median 0.965 stdevs
+  int64 addition of -3 and -3 : mean time 3.52e-09 s, stdev 3.5e-10 s, distance from overall median 0.96 stdevs
+  int64 addition of -3 and 1 : mean time 3.57e-09 s, stdev 3.39e-10 s, distance from overall median 0.846 stdevs
+  int64 addition of 2 and -1 : mean time 3.63e-09 s, stdev 2.75e-10 s, distance from overall median 0.832 stdevs
+  int64 addition of -3 and -11 : mean time 3.57e-09 s, stdev 3.48e-10 s, distance from overall median 0.822 stdevs
+  int64 addition of 1111111 and 2 : mean time 3.6e-09 s, stdev 3.19e-10 s, distance from overall median 0.804 stdevs
+  int64 addition of -1111111 and -2 : mean time 3.64e-09 s, stdev 2.72e-10 s, distance from overall median 0.793 stdevs
+  the remaining 280 timings are within 0.776 sigma of the overall median
+
+int64 subtraction
+  timing................................
+  overall median: 3.68e-09 s
+  int64 subtraction of 0 from -9223372036854775797 : mean time 3.4e-09 s, stdev 3.32e-10 s, distance from overall median 0.845 stdevs
+  int64 subtraction of 9223372036854775796 from 1 : mean time 3.41e-09 s, stdev 3.31e-10 s, distance from overall median 0.822 stdevs
+  int64 subtraction of 0 from 1111111111111 : mean time 3.44e-09 s, stdev 2.99e-10 s, distance from overall median 0.808 stdevs
+  int64 subtraction of 9223372036854775796 from 1111111 : mean time 3.43e-09 s, stdev 3.19e-10 s, distance from overall median 0.801 stdevs
+  int64 subtraction of 0 from 11 : mean time 3.42e-09 s, stdev 3.26e-10 s, distance from overall median 0.8 stdevs
+  int64 subtraction of -1111111 from 9223372036854775807 : mean time 3.41e-09 s, stdev 3.52e-10 s, distance from overall median 0.782 stdevs
+  int64 subtraction of 0 from 9223372036854775807 : mean time 3.45e-09 s, stdev 2.94e-10 s, distance from overall median 0.781 stdevs
+  int64 subtraction of 9223372036854775807 from -9223372036854775797 : mean time 3.43e-09 s, stdev 3.31e-10 s, distance from overall median 0.758 stdevs
+  the remaining 280 timings are within 0.734 sigma of the overall median
+
+int64 multiplication
+  timing................................
+  overall median: 4.52e-09 s
+  int64 multiplication of -9223372036854775808 by -9223372036854775808 : mean time 4.55e-09 s, stdev 2.73e-11 s, distance from overall median 0.892 stdevs
+  int64 multiplication of -9223372036854775808 by -9223372036854775797 : mean time 4.54e-09 s, stdev 3.04e-11 s, distance from overall median 0.589 stdevs
+  int64 multiplication of -9223372036854775797 by 11 : mean time 4.47e-09 s, stdev 1.02e-10 s, distance from overall median 0.576 stdevs
+  int64 multiplication of -2 by 1111111111111 : mean time 4.48e-09 s, stdev 7.79e-11 s, distance from overall median 0.575 stdevs
+  int64 multiplication of 1 by 0 : mean time 4.47e-09 s, stdev 9.1e-11 s, distance from overall median 0.569 stdevs
+  int64 multiplication of 1 by 11 : mean time 4.48e-09 s, stdev 7.98e-11 s, distance from overall median 0.566 stdevs
+  int64 multiplication of 1 by -2 : mean time 4.47e-09 s, stdev 9.08e-11 s, distance from overall median 0.551 stdevs
+  int64 multiplication of 1 by -3 : mean time 4.48e-09 s, stdev 8.64e-11 s, distance from overall median 0.54 stdevs
+  the remaining 280 timings are within 0.537 sigma of the overall median
+
+int64 division
+  timing................................
+  overall median: 3.44e-08 s
+  int64 division of 1 by 1111111111111 : mean time 1.32e-08 s, stdev 2.19e-10 s, distance from overall median 97.3 stdevs
+  int64 division of 1111111 by 1111111111111 : mean time 1.31e-08 s, stdev 2.22e-10 s, distance from overall median 95.9 stdevs
+  int64 division of 2 by 1111111111111 : mean time 1.31e-08 s, stdev 2.42e-10 s, distance from overall median 88.1 stdevs
+  int64 division of -11 by 9223372036854775796 : mean time 1.61e-08 s, stdev 2.13e-10 s, distance from overall median 86.1 stdevs
+  int64 division of 1111111 by 9223372036854775796 : mean time 1.32e-08 s, stdev 2.56e-10 s, distance from overall median 82.9 stdevs
+  int64 division of 1111111 by -1111111111111 : mean time 1.65e-08 s, stdev 2.24e-10 s, distance from overall median 80.1 stdevs
+  int64 division of -9223372036854775808 by 9223372036854775807 : mean time 5.44e-08 s, stdev 2.92e-10 s, distance from overall median 68.5 stdevs
+  int64 division of 3 by 1111111111111 : mean time 1.32e-08 s, stdev 3.32e-10 s, distance from overall median 63.9 stdevs
+  int64 division of 9223372036854775796 by 9223372036854775807 : mean time 5.25e-08 s, stdev 3.14e-10 s, distance from overall median 57.7 stdevs
+  int64 division of 2 by 9223372036854775796 : mean time 1.32e-08 s, stdev 3.68e-10 s, distance from overall median 57.6 stdevs
+  int64 division of -11 by 9223372036854775807 : mean time 1.61e-08 s, stdev 3.19e-10 s, distance from overall median 57.5 stdevs
+  int64 division of 1111111111111 by 1111111111111 : mean time 5.04e-08 s, stdev 2.93e-10 s, distance from overall median 54.4 stdevs
+  int64 division of -2 by 1111111111111 : mean time 1.62e-08 s, stdev 3.71e-10 s, distance from overall median 49.1 stdevs
+  int64 division of 2 by 9223372036854775807 : mean time 1.33e-08 s, stdev 4.39e-10 s, distance from overall median 48.1 stdevs
+  int64 division of 0 by -1111111111111 : mean time 1.65e-08 s, stdev 3.75e-10 s, distance from overall median 47.7 stdevs
+  int64 division of 9223372036854775807 by 9223372036854775807 : mean time 5.02e-08 s, stdev 3.38e-10 s, distance from overall median 46.7 stdevs
+  int64 division of 1111111111111 by -9223372036854775797 : mean time 1.65e-08 s, stdev 3.94e-10 s, distance from overall median 45.4 stdevs
+  int64 division of 1111111 by 9223372036854775807 : mean time 1.32e-08 s, stdev 4.68e-10 s, distance from overall median 45.2 stdevs
+  int64 division of 0 by 1111111111111 : mean time 1.33e-08 s, stdev 4.69e-10 s, distance from overall median 45.1 stdevs
+  int64 division of 9223372036854775796 by 1111111111111 : mean time 5.04e-08 s, stdev 3.57e-10 s, distance from overall median 44.8 stdevs
+  int64 division of -11 by 1111111111111 : mean time 1.62e-08 s, stdev 4.08e-10 s, distance from overall median 44.7 stdevs
+  int64 division of -3 by 1111111111111 : mean time 1.62e-08 s, stdev 4.19e-10 s, distance from overall median 43.5 stdevs
+  int64 division of -3 by 9223372036854775796 : mean time 1.62e-08 s, stdev 4.24e-10 s, distance from overall median 43 stdevs
+  int64 division of 11 by 9223372036854775807 : mean time 1.32e-08 s, stdev 5.14e-10 s, distance from overall median 41.2 stdevs
+  int64 division of -3 by 9223372036854775807 : mean time 1.61e-08 s, stdev 4.5e-10 s, distance from overall median 40.6 stdevs
+  int64 division of -9223372036854775797 by 9223372036854775796 : mean time 5.25e-08 s, stdev 4.47e-10 s, distance from overall median 40.4 stdevs
+  int64 division of 3 by 9223372036854775796 : mean time 1.32e-08 s, stdev 5.44e-10 s, distance from overall median 39 stdevs
+  int64 division of 11 by 1111111111111 : mean time 1.32e-08 s, stdev 5.48e-10 s, distance from overall median 38.8 stdevs
+  int64 division of -1 by 9223372036854775796 : mean time 1.62e-08 s, stdev 4.75e-10 s, distance from overall median 38.4 stdevs
+  int64 division of -1111111 by 9223372036854775807 : mean time 1.61e-08 s, stdev 4.81e-10 s, distance from overall median 38.1 stdevs
+  int64 division of 1 by 9223372036854775796 : mean time 1.33e-08 s, stdev 5.67e-10 s, distance from overall median 37.3 stdevs
+  int64 division of 9223372036854775807 by 1111111111111 : mean time 5.04e-08 s, stdev 4.41e-10 s, distance from overall median 36.3 stdevs
+  int64 division of 2 by -1111111111111 : mean time 1.66e-08 s, stdev 4.92e-10 s, distance from overall median 36.2 stdevs
+  int64 division of -1111111 by 9223372036854775796 : mean time 1.63e-08 s, stdev 5.33e-10 s, distance from overall median 34.1 stdevs
+  int64 division of -2 by 9223372036854775807 : mean time 1.62e-08 s, stdev 5.36e-10 s, distance from overall median 33.9 stdevs
+  int64 division of 9223372036854775796 by 9223372036854775796 : mean time 5.03e-08 s, stdev 4.75e-10 s, distance from overall median 33.5 stdevs
+  int64 division of -1111111 by 1111111111111 : mean time 1.63e-08 s, stdev 5.49e-10 s, distance from overall median 33 stdevs
+  int64 division of 1111111 by -9223372036854775797 : mean time 1.66e-08 s, stdev 5.51e-10 s, distance from overall median 32.3 stdevs
+  int64 division of -1 by 1111111111111 : mean time 1.63e-08 s, stdev 5.63e-10 s, distance from overall median 32.2 stdevs
+  int64 division of -1111111111111 by 9223372036854775796 : mean time 1.63e-08 s, stdev 5.73e-10 s, distance from overall median 31.6 stdevs
+  int64 division of 1111111111111 by 9223372036854775807 : mean time 1.33e-08 s, stdev 6.74e-10 s, distance from overall median 31.4 stdevs
+  int64 division of -1111111111111 by 9223372036854775807 : mean time 1.62e-08 s, stdev 5.91e-10 s, distance from overall median 30.8 stdevs
+  int64 division of 11 by 9223372036854775796 : mean time 1.33e-08 s, stdev 7.09e-10 s, distance from overall median 29.8 stdevs
+  int64 division of 11 by -1111111111111 : mean time 1.66e-08 s, stdev 5.98e-10 s, distance from overall median 29.7 stdevs
+  int64 division of 0 by 9223372036854775796 : mean time 1.34e-08 s, stdev 7.12e-10 s, distance from overall median 29.5 stdevs
+  int64 division of -9223372036854775797 by 9223372036854775807 : mean time 5.47e-08 s, stdev 7.07e-10 s, distance from overall median 28.7 stdevs
+  int64 division of -1 by 9223372036854775807 : mean time 1.62e-08 s, stdev 6.56e-10 s, distance from overall median 27.8 stdevs
+  int64 division of -9223372036854775808 by -1111111111111 : mean time 5.64e-08 s, stdev 7.95e-10 s, distance from overall median 27.6 stdevs
+  int64 division of -2 by 9223372036854775796 : mean time 1.62e-08 s, stdev 6.77e-10 s, distance from overall median 27 stdevs
+  int64 division of 3 by 9223372036854775807 : mean time 1.33e-08 s, stdev 8.15e-10 s, distance from overall median 25.9 stdevs
+  int64 division of 1 by -1111111111111 : mean time 1.67e-08 s, stdev 6.97e-10 s, distance from overall median 25.4 stdevs
+  int64 division of 0 by 9223372036854775807 : mean time 1.34e-08 s, stdev 8.72e-10 s, distance from overall median 24.1 stdevs
+  int64 division of -9223372036854775797 by -1111111 : mean time 6.37e-08 s, stdev 1.23e-09 s, distance from overall median 23.8 stdevs
+  int64 division of 3 by -1111111111111 : mean time 1.67e-08 s, stdev 7.45e-10 s, distance from overall median 23.7 stdevs
+  int64 division of -9223372036854775808 by 1 : mean time 6.13e-08 s, stdev 1.14e-09 s, distance from overall median 23.6 stdevs
+  int64 division of -9223372036854775808 by -1111111 : mean time 6.47e-08 s, stdev 1.35e-09 s, distance from overall median 22.4 stdevs
+  int64 division of -1111111111111 by -2 : mean time 6.23e-08 s, stdev 1.25e-09 s, distance from overall median 22.3 stdevs
+  int64 division of 0 by -9223372036854775797 : mean time 1.69e-08 s, stdev 8.07e-10 s, distance from overall median 21.7 stdevs
+  int64 division of -1111111111111 by 1111111111111 : mean time 5.28e-08 s, stdev 8.51e-10 s, distance from overall median 21.5 stdevs
+  int64 division of -1111111111111 by -3 : mean time 6.3e-08 s, stdev 1.36e-09 s, distance from overall median 21 stdevs
+  int64 division of -9223372036854775797 by -11 : mean time 6.29e-08 s, stdev 1.36e-09 s, distance from overall median 21 stdevs
+  int64 division of 1111111111111 by -9223372036854775808 : mean time 1.69e-08 s, stdev 8.43e-10 s, distance from overall median 20.8 stdevs
+  int64 division of 1111111111111 by 9223372036854775796 : mean time 1.36e-08 s, stdev 1.01e-09 s, distance from overall median 20.7 stdevs
+  int64 division of -9223372036854775797 by -2 : mean time 6.25e-08 s, stdev 1.36e-09 s, distance from overall median 20.6 stdevs
+  int64 division of -9223372036854775808 by -9223372036854775797 : mean time 5.67e-08 s, stdev 1.09e-09 s, distance from overall median 20.4 stdevs
+  int64 division of 11 by -9223372036854775797 : mean time 1.68e-08 s, stdev 8.67e-10 s, distance from overall median 20.3 stdevs
+  int64 division of 1 by -9223372036854775797 : mean time 1.68e-08 s, stdev 8.73e-10 s, distance from overall median 20.2 stdevs
+  int64 division of -9223372036854775797 by -3 : mean time 6.26e-08 s, stdev 1.41e-09 s, distance from overall median 19.9 stdevs
+  int64 division of 2 by -9223372036854775797 : mean time 1.69e-08 s, stdev 9.59e-10 s, distance from overall median 18.3 stdevs
+  int64 division of -9223372036854775808 by -2 : mean time 6.25e-08 s, stdev 1.55e-09 s, distance from overall median 18.1 stdevs
+  int64 division of -1111111111111 by -11 : mean time 6.34e-08 s, stdev 1.62e-09 s, distance from overall median 17.9 stdevs
+  int64 division of 3 by -9223372036854775797 : mean time 1.7e-08 s, stdev 9.71e-10 s, distance from overall median 17.9 stdevs
+  int64 division of -9223372036854775808 by -11 : mean time 6.37e-08 s, stdev 1.68e-09 s, distance from overall median 17.4 stdevs
+  int64 division of -9223372036854775808 by 9223372036854775796 : mean time 5.46e-08 s, stdev 1.16e-09 s, distance from overall median 17.3 stdevs
+  int64 division of 1 by 9223372036854775807 : mean time 1.34e-08 s, stdev 1.21e-09 s, distance from overall median 17.3 stdevs
+  int64 division of -11 by -1111111111111 : mean time 1.74e-08 s, stdev 9.95e-10 s, distance from overall median 17.1 stdevs
+  int64 division of 9223372036854775796 by -9223372036854775808 : mean time 1.7e-08 s, stdev 1.04e-09 s, distance from overall median 16.8 stdevs
+  int64 division of 1111111111111 by -1111111111111 : mean time 5.51e-08 s, stdev 1.3e-09 s, distance from overall median 15.9 stdevs
+  int64 division of -9223372036854775808 by 1 : mean time 6.01e-08 s, stdev 1.61e-09 s, distance from overall median 15.9 stdevs
+  int64 division of 1111111111111 by -11 : mean time 6.07e-08 s, stdev 1.7e-09 s, distance from overall median 15.5 stdevs
+  int64 division of -9223372036854775808 by -3 : mean time 6.31e-08 s, stdev 1.87e-09 s, distance from overall median 15.3 stdevs
+  int64 division of 1111111 by -9223372036854775808 : mean time 1.71e-08 s, stdev 1.15e-09 s, distance from overall median 15 stdevs
+  int64 division of -9223372036854775808 by 1111111111111 : mean time 5.47e-08 s, stdev 1.37e-09 s, distance from overall median 14.8 stdevs
+  int64 division of 9223372036854775807 by -9223372036854775808 : mean time 1.71e-08 s, stdev 1.19e-09 s, distance from overall median 14.5 stdevs
+  int64 division of -1111111111111 by 11 : mean time 5.76e-08 s, stdev 1.65e-09 s, distance from overall median 14 stdevs
+  int64 division of -1111111 by -9223372036854775797 : mean time 1.82e-08 s, stdev 1.16e-09 s, distance from overall median 13.9 stdevs
+  int64 division of -9223372036854775797 by 1 : mean time 5.97e-08 s, stdev 1.82e-09 s, distance from overall median 13.9 stdevs
+  int64 division of 9223372036854775807 by 9223372036854775796 : mean time 5.06e-08 s, stdev 1.17e-09 s, distance from overall median 13.8 stdevs
+  int64 division of -1111111111111 by 3 : mean time 5.8e-08 s, stdev 1.71e-09 s, distance from overall median 13.8 stdevs
+  int64 division of -9223372036854775808 by 3 : mean time 5.83e-08 s, stdev 1.78e-09 s, distance from overall median 13.4 stdevs
+  int64 division of -11 by -9223372036854775797 : mean time 1.78e-08 s, stdev 1.24e-09 s, distance from overall median 13.4 stdevs
+  int64 division of -1111111111111 by 1 : mean time 5.97e-08 s, stdev 1.89e-09 s, distance from overall median 13.4 stdevs
+  int64 division of 11 by -9223372036854775808 : mean time 1.75e-08 s, stdev 1.27e-09 s, distance from overall median 13.3 stdevs
+  int64 division of -1111111 by -9223372036854775808 : mean time 1.85e-08 s, stdev 1.2e-09 s, distance from overall median 13.3 stdevs
+  int64 division of 0 by -9223372036854775808 : mean time 1.85e-08 s, stdev 1.21e-09 s, distance from overall median 13.2 stdevs
+  int64 division of -11 by -9223372036854775808 : mean time 1.81e-08 s, stdev 1.25e-09 s, distance from overall median 13.1 stdevs
+  int64 division of 1 by -9223372036854775808 : mean time 1.75e-08 s, stdev 1.3e-09 s, distance from overall median 13 stdevs
+  int64 division of 3 by -9223372036854775808 : mean time 1.75e-08 s, stdev 1.32e-09 s, distance from overall median 12.8 stdevs
+  int64 division of -1111111111111 by 2 : mean time 5.8e-08 s, stdev 1.84e-09 s, distance from overall median 12.8 stdevs
+  int64 division of -1111111 by -1111111111111 : mean time 1.77e-08 s, stdev 1.31e-09 s, distance from overall median 12.7 stdevs
+  int64 division of 9223372036854775807 by -1111111 : mean time 5.82e-08 s, stdev 1.87e-09 s, distance from overall median 12.7 stdevs
+  int64 division of -9223372036854775797 by 2 : mean time 5.84e-08 s, stdev 1.89e-09 s, distance from overall median 12.7 stdevs
+  int64 division of -1 by -1111111111111 : mean time 1.77e-08 s, stdev 1.32e-09 s, distance from overall median 12.7 stdevs
+  int64 division of -9223372036854775797 by 1111111 : mean time 5.78e-08 s, stdev 1.88e-09 s, distance from overall median 12.4 stdevs
+  int64 division of -3 by -9223372036854775808 : mean time 1.8e-08 s, stdev 1.33e-09 s, distance from overall median 12.3 stdevs
+  int64 division of -9223372036854775808 by 2 : mean time 5.9e-08 s, stdev 2e-09 s, distance from overall median 12.3 stdevs
+  int64 division of 9223372036854775796 by -3 : mean time 5.74e-08 s, stdev 1.88e-09 s, distance from overall median 12.2 stdevs
+  int64 division of -9223372036854775808 by 1 : mean time 5.93e-08 s, stdev 2.03e-09 s, distance from overall median 12.2 stdevs
+  int64 division of -1111111111111 by -9223372036854775797 : mean time 1.83e-08 s, stdev 1.32e-09 s, distance from overall median 12.2 stdevs
+  int64 division of -3 by -9223372036854775797 : mean time 1.78e-08 s, stdev 1.38e-09 s, distance from overall median 12.1 stdevs
+  int64 division of -2 by -1111111111111 : mean time 1.78e-08 s, stdev 1.38e-09 s, distance from overall median 12 stdevs
+  int64 division of -3 by -1111111111111 : mean time 1.78e-08 s, stdev 1.39e-09 s, distance from overall median 12 stdevs
+  int64 division of -9223372036854775808 by 1111111 : mean time 5.84e-08 s, stdev 2.03e-09 s, distance from overall median 11.8 stdevs
+  int64 division of 9223372036854775796 by -2 : mean time 5.75e-08 s, stdev 1.96e-09 s, distance from overall median 11.8 stdevs
+  int64 division of -9223372036854775797 by 1 : mean time 5.89e-08 s, stdev 2.09e-09 s, distance from overall median 11.7 stdevs
+  int64 division of -9223372036854775797 by 1 : mean time 5.86e-08 s, stdev 2.08e-09 s, distance from overall median 11.6 stdevs
+  int64 division of 9223372036854775796 by -1111111 : mean time 5.88e-08 s, stdev 2.11e-09 s, distance from overall median 11.6 stdevs
+  int64 division of -1111111111111 by 1 : mean time 5.88e-08 s, stdev 2.16e-09 s, distance from overall median 11.3 stdevs
+  int64 division of 9223372036854775807 by -11 : mean time 5.77e-08 s, stdev 2.07e-09 s, distance from overall median 11.2 stdevs
+  int64 division of -9223372036854775808 by 11 : mean time 5.85e-08 s, stdev 2.15e-09 s, distance from overall median 11.2 stdevs
+  int64 division of -1 by -9223372036854775797 : mean time 1.8e-08 s, stdev 1.48e-09 s, distance from overall median 11.1 stdevs
+  int64 division of -9223372036854775797 by 11 : mean time 5.85e-08 s, stdev 2.19e-09 s, distance from overall median 11 stdevs
+  int64 division of -1111111111111 by -1111111111111 : mean time 5.58e-08 s, stdev 1.97e-09 s, distance from overall median 10.8 stdevs
+  int64 division of 9223372036854775807 by -2 : mean time 5.7e-08 s, stdev 2.09e-09 s, distance from overall median 10.8 stdevs
+  int64 division of -1111111111111 by -9223372036854775808 : mean time 1.95e-08 s, stdev 1.38e-09 s, distance from overall median 10.8 stdevs
+  int64 division of -2 by -9223372036854775808 : mean time 1.86e-08 s, stdev 1.48e-09 s, distance from overall median 10.7 stdevs
+  int64 division of -1111111111111 by 1 : mean time 5.83e-08 s, stdev 2.28e-09 s, distance from overall median 10.5 stdevs
+  int64 division of 2 by -9223372036854775808 : mean time 1.74e-08 s, stdev 1.62e-09 s, distance from overall median 10.5 stdevs
+  int64 division of -9223372036854775797 by 3 : mean time 5.82e-08 s, stdev 2.27e-09 s, distance from overall median 10.4 stdevs
+  int64 division of -9223372036854775797 by 1111111111111 : mean time 5.28e-08 s, stdev 1.79e-09 s, distance from overall median 10.3 stdevs
+  int64 division of 9223372036854775796 by -11 : mean time 5.85e-08 s, stdev 2.35e-09 s, distance from overall median 10.2 stdevs
+  int64 division of -2 by -9223372036854775797 : mean time 1.81e-08 s, stdev 1.6e-09 s, distance from overall median 10.2 stdevs
+  int64 division of 1111111111111 by -2 : mean time 5.84e-08 s, stdev 2.36e-09 s, distance from overall median 10.2 stdevs
+  int64 division of -9223372036854775797 by -9223372036854775808 : mean time 1.99e-08 s, stdev 1.45e-09 s, distance from overall median 10 stdevs
+  int64 division of -1 by -9223372036854775808 : mean time 1.86e-08 s, stdev 1.59e-09 s, distance from overall median 9.97 stdevs
+  int64 division of 1111111111111 by -3 : mean time 5.92e-08 s, stdev 2.69e-09 s, distance from overall median 9.21 stdevs
+  int64 division of 9223372036854775807 by -3 : mean time 5.73e-08 s, stdev 2.54e-09 s, distance from overall median 8.98 stdevs
+  int64 division of 1111111111111 by 1 : mean time 5.26e-08 s, stdev 2.04e-09 s, distance from overall median 8.9 stdevs
+  int64 division of -9223372036854775797 by -9223372036854775797 : mean time 5.6e-08 s, stdev 2.63e-09 s, distance from overall median 8.2 stdevs
+  int64 division of -9223372036854775808 by -9223372036854775808 : mean time 2.4e-08 s, stdev 1.3e-09 s, distance from overall median 7.99 stdevs
+  int64 division of 9223372036854775796 by -1111111111111 : mean time 5.65e-08 s, stdev 3.09e-09 s, distance from overall median 7.13 stdevs
+  int64 division of 9223372036854775807 by -9223372036854775797 : mean time 5.71e-08 s, stdev 3.21e-09 s, distance from overall median 7.08 stdevs
+  int64 division of 2 by 1 : mean time 2.82e-08 s, stdev 9.22e-10 s, distance from overall median 6.79 stdevs
+  int64 division of 2 by 1 : mean time 2.82e-08 s, stdev 9.24e-10 s, distance from overall median 6.76 stdevs
+  int64 division of -9223372036854775797 by -1111111111111 : mean time 5.72e-08 s, stdev 3.41e-09 s, distance from overall median 6.67 stdevs
+  int64 division of 1111111111111 by 1 : mean time 5.09e-08 s, stdev 2.62e-09 s, distance from overall median 6.28 stdevs
+  int64 division of 1111111111111 by 1 : mean time 5.15e-08 s, stdev 2.73e-09 s, distance from overall median 6.25 stdevs
+  int64 division of 2 by 2 : mean time 2.82e-08 s, stdev 1e-09 s, distance from overall median 6.19 stdevs
+  int64 division of 9223372036854775796 by -9223372036854775797 : mean time 5.93e-08 s, stdev 4.07e-09 s, distance from overall median 6.1 stdevs
+  int64 division of 9223372036854775807 by -1111111111111 : mean time 5.9e-08 s, stdev 4.04e-09 s, distance from overall median 6.08 stdevs
+  int64 division of 1111111 by 3 : mean time 2.83e-08 s, stdev 1.01e-09 s, distance from overall median 5.99 stdevs
+  int64 division of 1111111 by 2 : mean time 2.83e-08 s, stdev 1.03e-09 s, distance from overall median 5.95 stdevs
+  int64 division of 2 by 1 : mean time 2.83e-08 s, stdev 1.02e-09 s, distance from overall median 5.93 stdevs
+  int64 division of 1111111 by 1 : mean time 2.83e-08 s, stdev 1.04e-09 s, distance from overall median 5.87 stdevs
+  int64 division of 11 by 1111111 : mean time 2.84e-08 s, stdev 1.07e-09 s, distance from overall median 5.67 stdevs
+  int64 division of 1111111111111 by 2 : mean time 5.05e-08 s, stdev 2.9e-09 s, distance from overall median 5.54 stdevs
+  int64 division of 1 by 1111111 : mean time 2.83e-08 s, stdev 1.1e-09 s, distance from overall median 5.53 stdevs
+  int64 division of 2 by 11 : mean time 2.84e-08 s, stdev 1.09e-09 s, distance from overall median 5.52 stdevs
+  int64 division of 9223372036854775807 by 1 : mean time 4.9e-08 s, stdev 2.65e-09 s, distance from overall median 5.5 stdevs
+  int64 division of 1111111111111 by 11 : mean time 4.92e-08 s, stdev 2.7e-09 s, distance from overall median 5.46 stdevs
+  int64 division of 1111111 by 1 : mean time 2.84e-08 s, stdev 1.11e-09 s, distance from overall median 5.45 stdevs
+  int64 division of 9223372036854775796 by 1 : mean time 5.07e-08 s, stdev 3e-09 s, distance from overall median 5.42 stdevs
+  int64 division of 9223372036854775796 by 2 : mean time 4.96e-08 s, stdev 2.86e-09 s, distance from overall median 5.32 stdevs
+  int64 division of 2 by 3 : mean time 2.85e-08 s, stdev 1.13e-09 s, distance from overall median 5.28 stdevs
+  int64 division of 9223372036854775807 by 1 : mean time 4.91e-08 s, stdev 2.8e-09 s, distance from overall median 5.25 stdevs
+  int64 division of 9223372036854775807 by 1111111 : mean time 4.92e-08 s, stdev 2.83e-09 s, distance from overall median 5.25 stdevs
+  int64 division of 0 by 1 : mean time 2.97e-08 s, stdev 8.98e-10 s, distance from overall median 5.22 stdevs
+  int64 division of 1 by 11 : mean time 2.86e-08 s, stdev 1.12e-09 s, distance from overall median 5.2 stdevs
+  int64 division of 9223372036854775807 by 2 : mean time 4.93e-08 s, stdev 2.87e-09 s, distance from overall median 5.19 stdevs
+  int64 division of 9223372036854775807 by 11 : mean time 4.93e-08 s, stdev 2.87e-09 s, distance from overall median 5.19 stdevs
+  int64 division of 9223372036854775796 by 1 : mean time 5e-08 s, stdev 3.01e-09 s, distance from overall median 5.17 stdevs
+  int64 division of 1111111111111 by 3 : mean time 4.98e-08 s, stdev 2.98e-09 s, distance from overall median 5.15 stdevs
+  int64 division of 9223372036854775796 by 1 : mean time 5.05e-08 s, stdev 3.13e-09 s, distance from overall median 5.13 stdevs
+  int64 division of 9223372036854775796 by 3 : mean time 4.89e-08 s, stdev 2.83e-09 s, distance from overall median 5.13 stdevs
+  int64 division of 9223372036854775807 by 3 : mean time 4.95e-08 s, stdev 2.95e-09 s, distance from overall median 5.11 stdevs
+  int64 division of 2 by 1111111 : mean time 2.86e-08 s, stdev 1.15e-09 s, distance from overall median 5.08 stdevs
+  int64 division of 9223372036854775796 by 1111111 : mean time 4.91e-08 s, stdev 2.95e-09 s, distance from overall median 4.96 stdevs
+  int64 division of 3 by 1111111 : mean time 2.85e-08 s, stdev 1.19e-09 s, distance from overall median 4.94 stdevs
+  int64 division of 1 by 3 : mean time 2.85e-08 s, stdev 1.2e-09 s, distance from overall median 4.92 stdevs
+  int64 division of 9223372036854775796 by 11 : mean time 4.93e-08 s, stdev 3.06e-09 s, distance from overall median 4.85 stdevs
+  int64 division of 9223372036854775807 by 1 : mean time 4.96e-08 s, stdev 3.14e-09 s, distance from overall median 4.83 stdevs
+  int64 division of 1111111 by 1 : mean time 2.86e-08 s, stdev 1.2e-09 s, distance from overall median 4.8 stdevs
+  int64 division of 3 by 3 : mean time 2.87e-08 s, stdev 1.19e-09 s, distance from overall median 4.79 stdevs
+  int64 division of 1111111 by 11 : mean time 2.86e-08 s, stdev 1.21e-09 s, distance from overall median 4.79 stdevs
+  int64 division of 3 by 11 : mean time 2.86e-08 s, stdev 1.23e-09 s, distance from overall median 4.73 stdevs
+  int64 division of 1 by 1 : mean time 2.86e-08 s, stdev 1.24e-09 s, distance from overall median 4.68 stdevs
+  int64 division of 1 by 1 : mean time 2.87e-08 s, stdev 1.24e-09 s, distance from overall median 4.64 stdevs
+  int64 division of 3 by 2 : mean time 2.87e-08 s, stdev 1.25e-09 s, distance from overall median 4.61 stdevs
+  int64 division of 1 by 2 : mean time 2.87e-08 s, stdev 1.28e-09 s, distance from overall median 4.48 stdevs
+  int64 division of 11 by 1 : mean time 2.89e-08 s, stdev 1.24e-09 s, distance from overall median 4.43 stdevs
+  int64 division of 11 by 11 : mean time 2.85e-08 s, stdev 1.33e-09 s, distance from overall median 4.43 stdevs
+  int64 division of 11 by 2 : mean time 2.89e-08 s, stdev 1.24e-09 s, distance from overall median 4.42 stdevs
+  int64 division of 11 by 1 : mean time 2.89e-08 s, stdev 1.27e-09 s, distance from overall median 4.34 stdevs
+  int64 division of 3 by 1 : mean time 2.91e-08 s, stdev 1.22e-09 s, distance from overall median 4.34 stdevs
+  int64 division of 11 by 1 : mean time 2.89e-08 s, stdev 1.28e-09 s, distance from overall median 4.29 stdevs
+  int64 division of 11 by 3 : mean time 2.89e-08 s, stdev 1.3e-09 s, distance from overall median 4.28 stdevs
+  int64 division of 1 by 1 : mean time 2.9e-08 s, stdev 1.29e-09 s, distance from overall median 4.22 stdevs
+  int64 division of 1111111 by 1111111 : mean time 2.89e-08 s, stdev 1.32e-09 s, distance from overall median 4.21 stdevs
+  int64 division of 0 by 1111111 : mean time 2.87e-08 s, stdev 1.36e-09 s, distance from overall median 4.2 stdevs
+  int64 division of 1111111111111 by 1111111 : mean time 2.88e-08 s, stdev 1.34e-09 s, distance from overall median 4.2 stdevs
+  int64 division of 3 by 1 : mean time 2.89e-08 s, stdev 1.32e-09 s, distance from overall median 4.18 stdevs
+  int64 division of 0 by 1 : mean time 2.91e-08 s, stdev 1.32e-09 s, distance from overall median 4.03 stdevs
+  int64 division of 0 by 1 : mean time 2.94e-08 s, stdev 1.26e-09 s, distance from overall median 3.99 stdevs
+  int64 division of 0 by 2 : mean time 2.92e-08 s, stdev 1.34e-09 s, distance from overall median 3.93 stdevs
+  int64 division of 3 by 1 : mean time 2.9e-08 s, stdev 1.38e-09 s, distance from overall median 3.9 stdevs
+  int64 division of 0 by 11 : mean time 2.89e-08 s, stdev 1.43e-09 s, distance from overall median 3.88 stdevs
+  int64 division of 0 by 3 : mean time 2.91e-08 s, stdev 1.42e-09 s, distance from overall median 3.73 stdevs
+  int64 division of 0 by -1111111 : mean time 3.73e-08 s, stdev 1.04e-09 s, distance from overall median 2.74 stdevs
+  int64 division of -1111111111111 by 1111111 : mean time 3.75e-08 s, stdev 1.39e-09 s, distance from overall median 2.22 stdevs
+  int64 division of -1111111111111 by -1111111 : mean time 3.79e-08 s, stdev 1.97e-09 s, distance from overall median 1.75 stdevs
+  the remaining 78 timings are within 1.37 sigma of the overall median
+  alert #14: deviation of 97.3 sigma for int64 division of 1 by 1111111111111
+
+int64 equality comparison
+  timing................................
+  overall median: 4.53e-09 s
+  int64 equality comparison of -11 and 9223372036854775807 : mean time 4.37e-09 s, stdev 2.62e-10 s, distance from overall median 0.587 stdevs
+  int64 equality comparison of -2 and -3 : mean time 4.37e-09 s, stdev 2.62e-10 s, distance from overall median 0.582 stdevs
+  int64 equality comparison of -3 and 1111111 : mean time 4.38e-09 s, stdev 2.65e-10 s, distance from overall median 0.566 stdevs
+  int64 equality comparison of -3 and 1111111111111 : mean time 4.39e-09 s, stdev 2.48e-10 s, distance from overall median 0.544 stdevs
+  int64 equality comparison of 1111111 and -1111111 : mean time 4.4e-09 s, stdev 2.37e-10 s, distance from overall median 0.538 stdevs
+  int64 equality comparison of 1111111 and 0 : mean time 4.4e-09 s, stdev 2.26e-10 s, distance from overall median 0.538 stdevs
+  int64 equality comparison of 1111111 and -1 : mean time 4.4e-09 s, stdev 2.4e-10 s, distance from overall median 0.534 stdevs
+  int64 equality comparison of -2 and -2 : mean time 4.39e-09 s, stdev 2.53e-10 s, distance from overall median 0.524 stdevs
+  the remaining 280 timings are within 0.502 sigma of the overall median
+
+std::max<int64>
+  timing................................
+  overall median: 4.71e-09 s
+  std::max<int64>(-11, -9223372036854775808) : mean time 4.12e-09 s, stdev 1.23e-10 s, distance from overall median 4.83 stdevs
+  std::max<int64>(-9223372036854775808, -9223372036854775808) : mean time 5.21e-09 s, stdev 1.09e-10 s, distance from overall median 4.58 stdevs
+  std::max<int64>(-2, -9223372036854775808) : mean time 4.12e-09 s, stdev 1.33e-10 s, distance from overall median 4.45 stdevs
+  std::max<int64>(-1, -9223372036854775808) : mean time 4.14e-09 s, stdev 1.65e-10 s, distance from overall median 3.47 stdevs
+  std::max<int64>(1111111, 1111111111111) : mean time 6.29e-09 s, stdev 4.66e-10 s, distance from overall median 3.38 stdevs
+  std::max<int64>(-3, -9223372036854775808) : mean time 4.14e-09 s, stdev 1.69e-10 s, distance from overall median 3.36 stdevs
+  std::max<int64>(1, -9223372036854775808) : mean time 4.19e-09 s, stdev 1.89e-10 s, distance from overall median 2.75 stdevs
+  std::max<int64>(-1111111, -9223372036854775808) : mean time 4.17e-09 s, stdev 1.98e-10 s, distance from overall median 2.73 stdevs
+  std::max<int64>(2, -9223372036854775808) : mean time 4.17e-09 s, stdev 2.01e-10 s, distance from overall median 2.68 stdevs
+  std::max<int64>(-1111111111111, -9223372036854775808) : mean time 4.17e-09 s, stdev 2.05e-10 s, distance from overall median 2.66 stdevs
+  std::max<int64>(1111111, 11) : mean time 5.25e-09 s, stdev 2.12e-10 s, distance from overall median 2.54 stdevs
+  std::max<int64>(-1111111, -1111111) : mean time 6.38e-09 s, stdev 6.8e-10 s, distance from overall median 2.45 stdevs
+  std::max<int64>(0, 0) : mean time 6.31e-09 s, stdev 6.65e-10 s, distance from overall median 2.4 stdevs
+  std::max<int64>(1111111111111, -9223372036854775808) : mean time 4.22e-09 s, stdev 2.07e-10 s, distance from overall median 2.36 stdevs
+  std::max<int64>(3, -9223372036854775808) : mean time 4.2e-09 s, stdev 2.25e-10 s, distance from overall median 2.29 stdevs
+  std::max<int64>(9223372036854775807, 9223372036854775807) : mean time 5.32e-09 s, stdev 2.77e-10 s, distance from overall median 2.21 stdevs
+  std::max<int64>(9223372036854775807, 9223372036854775796) : mean time 5.37e-09 s, stdev 3.1e-10 s, distance from overall median 2.14 stdevs
+  std::max<int64>(1111111, -9223372036854775808) : mean time 4.21e-09 s, stdev 2.39e-10 s, distance from overall median 2.12 stdevs
+  std::max<int64>(1111111, 1111111) : mean time 5.19e-09 s, stdev 2.26e-10 s, distance from overall median 2.1 stdevs
+  std::max<int64>(1, 2) : mean time 6.05e-09 s, stdev 6.47e-10 s, distance from overall median 2.07 stdevs
+  std::max<int64>(1111111111111, 9223372036854775796) : mean time 6.21e-09 s, stdev 7.44e-10 s, distance from overall median 2.02 stdevs
+  std::max<int64>(9223372036854775796, 9223372036854775807) : mean time 6.1e-09 s, stdev 6.9e-10 s, distance from overall median 2.01 stdevs
+  std::max<int64>(2, 1111111111111) : mean time 5.82e-09 s, stdev 5.51e-10 s, distance from overall median 2.01 stdevs
+  std::max<int64>(-11, -1111111) : mean time 6.03e-09 s, stdev 6.62e-10 s, distance from overall median 1.99 stdevs
+  std::max<int64>(1111111111111, 1111111111111) : mean time 5.95e-09 s, stdev 6.27e-10 s, distance from overall median 1.97 stdevs
+  std::max<int64>(-1111111111111, -1111111111111) : mean time 6.2e-09 s, stdev 7.69e-10 s, distance from overall median 1.93 stdevs
+  std::max<int64>(11, 0) : mean time 5.94e-09 s, stdev 6.35e-10 s, distance from overall median 1.93 stdevs
+  std::max<int64>(1, 0) : mean time 5.84e-09 s, stdev 5.99e-10 s, distance from overall median 1.88 stdevs
+  std::max<int64>(2, 0) : mean time 6.05e-09 s, stdev 7.13e-10 s, distance from overall median 1.88 stdevs
+  std::max<int64>(9223372036854775796, 9223372036854775796) : mean time 5.95e-09 s, stdev 6.63e-10 s, distance from overall median 1.86 stdevs
+  std::max<int64>(1111111, 9223372036854775796) : mean time 6.06e-09 s, stdev 7.29e-10 s, distance from overall median 1.85 stdevs
+  std::max<int64>(-3, -1111111) : mean time 5.9e-09 s, stdev 6.56e-10 s, distance from overall median 1.82 stdevs
+  std::max<int64>(3, 0) : mean time 5.93e-09 s, stdev 6.82e-10 s, distance from overall median 1.79 stdevs
+  std::max<int64>(-9223372036854775808, -1111111111111) : mean time 5.59e-09 s, stdev 4.98e-10 s, distance from overall median 1.77 stdevs
+  std::max<int64>(0, -9223372036854775808) : mean time 4.2e-09 s, stdev 2.92e-10 s, distance from overall median 1.74 stdevs
+  std::max<int64>(-1, -1111111) : mean time 5.89e-09 s, stdev 6.8e-10 s, distance from overall median 1.73 stdevs
+  std::max<int64>(-3, 0) : mean time 5.68e-09 s, stdev 5.63e-10 s, distance from overall median 1.71 stdevs
+  std::max<int64>(-9223372036854775808, -9223372036854775797) : mean time 5.34e-09 s, stdev 3.67e-10 s, distance from overall median 1.7 stdevs
+  std::max<int64>(3, 1111111111111) : mean time 5.68e-09 s, stdev 5.75e-10 s, distance from overall median 1.69 stdevs
+  std::max<int64>(-1111111, -11) : mean time 6.25e-09 s, stdev 9.14e-10 s, distance from overall median 1.68 stdevs
+  std::max<int64>(-1, 0) : mean time 5.89e-09 s, stdev 7.06e-10 s, distance from overall median 1.67 stdevs
+  std::max<int64>(3, 11) : mean time 5.82e-09 s, stdev 6.63e-10 s, distance from overall median 1.67 stdevs
+  std::max<int64>(11, 1111111) : mean time 5.76e-09 s, stdev 6.28e-10 s, distance from overall median 1.66 stdevs
+  std::max<int64>(2, 1) : mean time 5.82e-09 s, stdev 6.65e-10 s, distance from overall median 1.66 stdevs
+  std::max<int64>(3, 1) : mean time 5.82e-09 s, stdev 6.65e-10 s, distance from overall median 1.66 stdevs
+  std::max<int64>(-11, -11) : mean time 5.67e-09 s, stdev 5.8e-10 s, distance from overall median 1.65 stdevs
+  std::max<int64>(1, 1111111111111) : mean time 5.66e-09 s, stdev 5.77e-10 s, distance from overall median 1.65 stdevs
+  std::max<int64>(1, 1) : mean time 5.77e-09 s, stdev 6.44e-10 s, distance from overall median 1.65 stdevs
+  the remaining 240 timings are within 1.63 sigma of the overall median
+
+There are 14 alerts about exploitable timing differences:
+  alert #1: deviation of 445 sigma for conversion from float to int64 of -inf
+  alert #2: deviation of 1.01e+03 sigma for std::exp<float>(nan)
+  alert #3: deviation of 551 sigma for std::log<float>(nan)
+  alert #4: deviation of 437 sigma for std::cos<float>(nan)
+  alert #5: deviation of 572 sigma for std::atan<float>(nan)
+  alert #6: deviation of 187 sigma for float multiplication of 256 by nan
+  alert #7: deviation of 8.71 sigma for float equality comparison of nan and inf
+  alert #8: deviation of 492 sigma for conversion from double to int64 of inf
+  alert #9: deviation of 539 sigma for std::exp<double>(nan)
+  alert #10: deviation of 458 sigma for std::log<double>(1.68e+07)
+  alert #11: deviation of 359 sigma for std::cos<double>(inf)
+  alert #12: deviation of 349 sigma for std::atan<double>(nan)
+  alert #13: deviation of 193 sigma for double multiplication of -256 by nan
+  alert #14: deviation of 97.3 sigma for int64 division of 1 by 1111111111111

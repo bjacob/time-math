@@ -1,0 +1,2 @@
+Of interest here is that while this CPU supports SSE2 and DAZ, NaN values are still slow.
+

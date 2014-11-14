@@ -1,0 +1,1 @@
+Of interest here is that while this device supports SSE2, it obviously doesn't support DAZ --- denormals are still slow.
